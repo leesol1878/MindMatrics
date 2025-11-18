@@ -12,6 +12,7 @@ import 'dotenv/config';
 
  //REGISTER
 
+ //export const register = async function(req, res) {
  export async function register(req, res) {
     try {
         const { name, email, password } = req.body;
@@ -24,15 +25,15 @@ import 'dotenv/config';
         if (!validator.isEmail(email)) {
             return res.status(400).json({
                 success: false,
-                message: 'Invalid email format'
+                message: 'Invalid email.'
             });
         }
 
-        const exists = await User.findOne({ email });
+        const exists = await User.findOne({ email }).lean();
         if (exists) {
             return res.status(409).json({
                 success: false,
-                message: 'Email already in use'
+                message: 'User already exists.'
             });
         }
         const newID = new mongoose.Types.ObjectId();
@@ -55,7 +56,7 @@ import 'dotenv/config';
     } 
     
     catch (error) {
-        console.error('Registration Error:', error);
+        console.error('Registration Error:', err);
         return  res.status(500).json({
             success: false,
             message: 'Server Error'
@@ -90,7 +91,7 @@ export async function login(req, res) {
             });
         }
 
-        if(!JWT_SECRET) throw new Error('JWT_SECRET is not defined');
+        //if(!JWT_SECRET) throw new Error('JWT_SECRET is not defined');
         const token = jwt.sign({ id: user._id.toString() }, JWT_SECRET, { expiresIn: TOKEN_EXPIRES_IN });
 
         return res.status(200).json({
@@ -106,10 +107,6 @@ export async function login(req, res) {
             message: 'Server Error'
         });
     }
-
 }
-
-
-// In controller/userController.js
 
 

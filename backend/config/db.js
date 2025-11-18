@@ -5,4 +5,4 @@ const connectDB = async () => {
         .then(() => {console.log('DB CONNECTED');})
 }
 
-export { connectDB };
+export default  connectDB ;
