@@ -1,13 +1,14 @@
 import React from 'react'
+import { Routes, Route } from 'react-router-dom'
+import Home from './pages/Home.jsx'
 
 const App = () => {
   return (
-    <div>
-      <h1 className="text-3xl font-bold underline">
-    Hello world!
-  </h1>
-  </div>
-  )
-}
+   <Routes>
+    <Route path='/' element={<Home />} />
+    {/* <Route path='/login' element={<Login />} /> */}
+   </Routes>
+  );
+};
 
 export default App
