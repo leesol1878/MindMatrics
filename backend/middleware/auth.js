@@ -1,4 +1,3 @@
-import jsonwebtoken from "jsonwebtoken";
 import jwt from 'jsonwebtoken';
 import User from '../models/userModel.js';
 
@@ -16,27 +15,25 @@ export default async function authMiddleware(req, res, next) {
 
     const token = authHeader.split(' ')[1];
 
-    //verify
-    try{
-        const playload = jwt.verify(token, JWT_SECRET);
-        req.user = await User.findById(playload.id).select('-password');
-        if(!user){
+    // Verify token
+    try {
+        const payload = jwt.verify(token, JWT_SECRET); // Fixed typo: playload -> payload
+        const user = await User.findById(payload.id).select('-password'); // Fixed variable name
+        
+        if (!user) {
             return res.status(401).json({ 
                 success: false,
-                message: 'Not authorized, User not found' });
-            }
+                message: 'Not authorized, User not found' 
+            });
+        }
 
-            req.user = user;
-            next();
-    }
-
-    catch(error){
-        console.error('JWT VERIFICATION FAILED:', err);
+        req.user = user;
+        next();
+    } catch (error) {
+        console.error('JWT VERIFICATION FAILED:', error); // Fixed variable name
         return res.status(401).json({ 
             success: false,
-            message: 'Token invalid or ecpired' });
-
+            message: 'Token invalid or expired' 
+        });
     }
-
-
 }

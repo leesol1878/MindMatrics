@@ -56,7 +56,7 @@ import 'dotenv/config';
     } 
     
     catch (error) {
-        console.error('Registration Error:', err);
+        console.error('Registration Error:', error);
         return  res.status(500).json({
             success: false,
             message: 'Server Error'

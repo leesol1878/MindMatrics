@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { navbarStyles } from '../assets/dummyStyles'
 import { Link, NavLink, useNavigate } from 'react-router-dom'
 import myLogo from '../assets/quizlogo.png';
@@ -9,24 +9,35 @@ const Navbar = () => {
     const [loggedIn, setLoggedIn] = useState(false);
     const [menuOpen, setMenuOpen] = useState(false);
     
+    // Check if user is logged in on component mount
+    useEffect(() => {
+        const token = localStorage.getItem('authToken');
+        const user = localStorage.getItem('user');
+        setLoggedIn(!!token && !!user);
+        
+        // Listen for auth changes
+        const handleAuthChange = () => {
+            const token = localStorage.getItem('authToken');
+            const user = localStorage.getItem('user');
+            setLoggedIn(!!token && !!user);
+        };
+        
+        window.addEventListener('authChange', handleAuthChange);
+        return () => window.removeEventListener('authChange', handleAuthChange);
+    }, []);
+
     // Logout function
     const handleLogout = () => {
         try {
             localStorage.removeItem('authToken');
-            localStorage.clear();
+            localStorage.removeItem('user');
         } catch(error) {
             // ignore all the error
         }
 
-        window.dispatchEvent(
-            new Event('authChange', {detail: {user: null}})
-        );
-        
-        try {
-            navigate('/login');
-        } catch(e) {
-            window.location.href = '/login'; 
-        }
+        window.dispatchEvent(new Event('authChange'));
+        setLoggedIn(false);
+        navigate('/');
     }
 
     return (
@@ -75,10 +86,10 @@ const Navbar = () => {
                                 Logout
                             </button>
                         ) : (
-                            <NavLink to='/login' className={navbarStyles.loginButton}>
+                            <Link to='/login' className={navbarStyles.loginButton}>
                                 <LogIn className={navbarStyles.buttonIcon} />
                                 Login
-                            </NavLink>
+                            </Link>
                         )}
                     </div>
                 </div>
@@ -121,14 +132,14 @@ const Navbar = () => {
                                     </li>
                                 ) : (
                                     <li>
-                                        <NavLink 
+                                        <Link 
                                             to='/login' 
                                             className={navbarStyles.mobileMenuItem} 
                                             onClick={() => setMenuOpen(false)}
                                         >
                                             <LogIn className={navbarStyles.mobileMenuIcon}/>
                                             Login
-                                        </NavLink>
+                                        </Link>
                                     </li>
                                 )}
                             </ul>
