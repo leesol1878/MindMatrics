@@ -1,25 +1,19 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
+//import {HTMLQuiz} from './subjects/html/HTML.jsx'
 
 function Quiz() {
   const navigate = useNavigate()
 
-  // Your subjects data
   const subjects = [
     { id: 1, name: 'HTML', icon: '🌐' },
     { id: 2, name: 'CSS', icon: '🎨' },
     { id: 3, name: 'JavaScript', icon: '⚡' },
-    { id: 4, name: 'React', icon: '⚛️' },
-    { id: 5, name: 'Node.js', icon: '🟢' },
-    { id: 6, name: 'mongo db', icon: '🍃' },
-    { id: 7, name: 'java', icon: '☕' },
-    { id: 8, name: 'Python', icon: '🐍' },
-    { id: 9, name: 'cpp', icon: '⚙️' },
-    { id: 10, name: 'bootstrap', icon: '🎀' }
+    { id: 4, name: 'Python', icon: '🐍' },
   ]
 
   const startQuiz = (subjectName) => {
-    navigate(`/quiz/${subjectName.toLowerCase()}`)
+    navigate(`/quiz/${subjectName.toLowerCase()}/selection`)
   }
 
   return (
@@ -43,20 +37,20 @@ function Quiz() {
           <h3 className="text-3xl font-bold text-gray-800 text-center mb-8">
             Choose Your Technology
           </h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-6">
             {subjects.map(subject => (
               <button
                 key={subject.id}
                 onClick={() => startQuiz(subject.name)}
-                className="bg-gradient-to-br from-blue-400/20 via-purple-500/20 to-blue-600/20 backdrop-blur-sm border border-blue-200/30 text-gray-800 p-6 rounded-xl shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 flex flex-col items-center justify-center min-h-[140px] group hover:from-blue-400/30 hover:via-purple-500/30 hover:to-blue-600/30"
+                className="bg-gradient-to-br from-blue-400/20 via-purple-500/20 to-blue-600/20 backdrop-blur-sm border border-blue-200/30 text-gray-800 p-8 rounded-xl shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 flex flex-col items-center justify-center min-h-[160px] group hover:from-blue-400/30 hover:via-purple-500/30 hover:to-blue-600/30"
               >
-                <div className="text-4xl mb-3 group-hover:scale-110 group-hover:rotate-3 transition-transform duration-300">
+                <div className="text-5xl mb-4 group-hover:scale-110 group-hover:rotate-3 transition-transform duration-300">
                   {subject.icon}
                 </div>
-                <div className="text-xl font-bold mb-2 capitalize">
+                <div className="text-2xl font-bold mb-3 capitalize">
                   {subject.name}
                 </div>
-                <div className="text-sm bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full px-3 py-1">
+                <div className="text-sm bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full px-4 py-2">
                   Start Quiz →
                 </div>
               </button>
@@ -64,7 +58,7 @@ function Quiz() {
           </div>
         </div>
 
-        {/* Features Section */}
+        {/* Why Learn With Us Section */}
         <div className="bg-white/80 backdrop-blur-sm rounded-2xl shadow-lg p-8 md:p-12 border border-white/50">
           <h3 className="text-3xl font-bold text-gray-800 text-center mb-12">
             Why Learn With Us?
