@@ -1,3 +1,4 @@
+// import Javascript from "../components/subjects/js/Javascript";
 
 const questionsData = {
   // HTML
@@ -281,7 +282,7 @@ const questionsData = {
   },
 
   // JavaScript
-  js: {
+  javas:{
     basic: [
       { id: 1, question: "Which keyword declares a variable with block scope introduced in ES6?", options: ["var", "let", "const", "both let and const"], correctAnswer: 1 },
       { id: 2, question: "How do you write a single-line comment in JS?", options: ["// comment", "/* comment */", "<!-- comment -->", "# comment"], correctAnswer: 0 },

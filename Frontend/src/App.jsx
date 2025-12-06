@@ -5,9 +5,10 @@ import Login from './components/Login'
 import Signup from './components/Signup'
 import Quiz from './components/Quizes.jsx'                 // Subject selection page
 import QuizSelection from './components/QuizSelection.jsx'   // Level selection page  
-import HTMLQuiz from '/src/components/subjects/html/HTML.jsx';  // Actual quiz component
-import CSSQuiz from "./components/subjects/css/CSS.JSX";
-
+import HTMLQuiz from './components/subjects/html/HTML.jsx'  // HTML quiz component
+import CSSQuiz from './components/subjects/css/CSS.JSX'    // CSS quiz component
+import JavascriptQuiz from './components/subjects/js/Javascript.jsx' // JavaScript quiz component
+import Python from './components/subjects/python/Python.jsx' // Python quiz component
 function App() {
   return (
     <Router>
@@ -17,16 +18,21 @@ function App() {
         <Route path="/signup" element={<Signup />} />
         <Route path="/results" element={<div>Results Page - To be implemented</div>} />
         
-        {/* Quiz Routes */}
-        <Route path="/quiz" element={<Quiz />} />                     {/* Subject selection */}
-        <Route path="/quiz/:subject/selection" element={<QuizSelection />} />  {/* Level selection */}
-        <Route path="/quiz/:subject/:level" element={<HTMLQuiz />} />          {/* Actual quiz - FIXED */}
-
-
-        {/* <Route path="/quiz/css/:level" element={<CSSQuiz />} />          Actual quiz - CSS */}
+        {/* Subject selection */}
+        <Route path="/quiz" element={<Quiz />} />
         
+        {/* Level selection for each subject */}
+        <Route path="/quiz/:subject/selection" element={<QuizSelection />} />
+        
+        {/* Individual quiz routes */}
+        <Route path="/quiz/html/:level" element={<HTMLQuiz />} />
+        <Route path="/quiz/css/:level" element={<CSSQuiz />} />
+        <Route path="/quiz/javascript/:level" element={<JavascriptQuiz />} />
+        
+        {/* Fallback route */}
+        <Route path="*" element={<div>404 - Page Not Found</div>} />
 
-
+        <Route path="/quiz/python/:level" element={< Python/>} />
       </Routes>
     </Router>
   )
