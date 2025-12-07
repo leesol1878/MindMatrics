@@ -33,7 +33,7 @@ function App() {
         {/* Fallback route */}
         <Route path="*" element={<div>404 - Page Not Found</div>} />
 
-        <Route path="/quiz/python/:level" element={< Python/>} />
+        <Route path="/quiz/python/:level" element={<Python />} />
       </Routes>
     </Router>
   )
