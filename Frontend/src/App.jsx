@@ -9,6 +9,7 @@ import HTMLQuiz from './components/subjects/html/HTML.jsx'  // HTML quiz compone
 import CSSQuiz from './components/subjects/css/CSS.JSX'    // CSS quiz component
 import JavascriptQuiz from './components/subjects/js/Javascript.jsx' // JavaScript quiz component
 import Python from './components/subjects/python/Python.jsx' // Python quiz component
+import ResultsPage from './components/ResultsPage.jsx'      // Results page component
 function App() {
   return (
     <Router>
@@ -16,7 +17,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
-        <Route path="/results" element={<div>Results Page - To be implemented</div>} />
+        <Route path="/results" element={<ResultsPage />} /> 
         
         {/* Subject selection */}
         <Route path="/quiz" element={<Quiz />} />
