@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import questionsData from '../../../assets/dummydata.js';
+import { saveQuizResultToDB } from '../../../api/quizAPI.js'; // ✅ ONLY import, don't redefine
 
 const PythonQuiz = () => {
   const { level } = useParams();
@@ -13,6 +14,8 @@ const PythonQuiz = () => {
   const [timeRemaining, setTimeRemaining] = useState(900); // 15 minutes
   const [isAnswered, setIsAnswered] = useState(false);
   const [userAnswers, setUserAnswers] = useState([]);
+  const [isSaving, setIsSaving] = useState(false);
+  const [saveError, setSaveError] = useState(null);
 
   // Get Python questions based on level from dummydata
   const questions = questionsData?.python?.[level] || [];
@@ -72,8 +75,46 @@ const PythonQuiz = () => {
     }
   };
 
-  const handleQuizEnd = () => {
+  // Updated handleQuizEnd function
+  const handleQuizEnd = async () => {
     setShowResult(true);
+    
+    // Calculate final score
+    const percentage = Math.round((score / questions.length) * 100);
+    
+    // Get user info from localStorage or your auth system
+    const user = JSON.parse(localStorage.getItem('user') || '{}');
+    
+    // Prepare quiz result data
+    const quizResult = {
+      userId: user.id || "guest_user",
+      userName: user.name || user.email || "Guest User",
+      subject: "python",
+      level: level,
+      score: score,
+      totalQuestions: questions.length,
+      percentage: percentage,
+      correctAnswers: score,
+      wrongAnswers: questions.length - score,
+      answers: userAnswers,
+      timeSpent: 900 - timeRemaining, // Time used in seconds
+      timestamp: new Date().toISOString(),
+      passed: percentage >= (level === 'basic' ? 60 : level === 'intermediate' ? 70 : 80)
+    };
+    
+    try {
+      setIsSaving(true);
+      setSaveError(null);
+      
+      // ✅ This will use the IMPORTED function from quizAPI.js
+      await saveQuizResultToDB(quizResult);
+      console.log('Quiz result saved successfully');
+    } catch (error) {
+      console.error("Failed to save quiz result:", error);
+      setSaveError("Failed to save your results. They will only be available in this session.");
+    } finally {
+      setIsSaving(false);
+    }
   };
 
   const handleRestart = () => {
@@ -84,6 +125,8 @@ const PythonQuiz = () => {
     setTimeRemaining(900);
     setIsAnswered(false);
     setUserAnswers([]);
+    setIsSaving(false);
+    setSaveError(null);
   };
 
   const handleBackToSelection = () => {
@@ -134,6 +177,35 @@ const PythonQuiz = () => {
               <span className="inline-block px-4 py-2 rounded-full bg-gradient-to-r from-purple-100 to-indigo-100 text-purple-700 font-semibold">
                 {getPerformanceMessage()}
               </span>
+              
+              {/* Save status indicator */}
+              {isSaving && (
+                <div className="mt-4 inline-flex items-center px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm">
+                  <svg className="animate-spin h-4 w-4 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                    <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                    <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                  </svg>
+                  Saving results...
+                </div>
+              )}
+              
+              {saveError && (
+                <div className="mt-4 inline-flex items-center px-3 py-1 bg-red-100 text-red-700 rounded-full text-sm">
+                  <svg className="h-4 w-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                  {saveError}
+                </div>
+              )}
+              
+              {!isSaving && !saveError && (
+                <div className="mt-4 inline-flex items-center px-3 py-1 bg-green-100 text-green-700 rounded-full text-sm">
+                  <svg className="h-4 w-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                  </svg>
+                  Results saved successfully!
+                </div>
+              )}
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
@@ -187,6 +259,12 @@ const PythonQuiz = () => {
                 className="px-6 py-3 bg-gradient-to-r from-gray-600 to-gray-700 text-white rounded-full font-semibold shadow-lg hover:scale-105 transform transition"
               >
                 Back to Levels
+              </button>
+              <button
+                onClick={() => navigate('/results')}
+                className="px-6 py-3 bg-gradient-to-r from-green-600 to-emerald-600 text-white rounded-full font-semibold shadow-lg hover:scale-105 transform transition"
+              >
+                View All Results
               </button>
             </div>
           </div>
