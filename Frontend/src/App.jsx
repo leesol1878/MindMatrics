@@ -7,9 +7,9 @@ import Quiz from './components/Quizes.jsx'                 // Subject selection 
 import QuizSelection from './components/QuizSelection.jsx'   // Level selection page  
 import HTMLQuiz from './components/subjects/html/HTML.jsx'  // HTML quiz component
 import JavascriptQuiz from './components/subjects/js/Javascript.jsx' // JavaScript quiz component
+import CSSQuiz from './components/subjects/css/ComputerSecuirity.jsx'    // CSS quiz component
 import Python from './components/subjects/python/Python.jsx' // Python quiz component
 import ResultsPage from './components/ResultsPage.jsx'      // Results page component
-import CSSQuiz from './components/subjects/ComputerSecuirity.jsx'    // CSS quiz component
 function App() {
   return (
     <Router>
