@@ -178,3 +178,20 @@ export const testBackendConnection = async () => {
     };
   }
 };
+
+// Local static quiz loader (uses `quizzes.json`). This allows frontend-only quizzes.
+import quizzes from './quizzes.json'
+
+/**
+ * Get quiz data for a given technology and level from local JSON.
+ * Returns null if not found.
+ */
+export const getQuiz = (technology, level) => {
+  if (!technology) return null
+  const techKey = technology.toLowerCase()
+  const lvlKey = (level || '').toLowerCase()
+  if (quizzes[techKey] && quizzes[techKey][lvlKey]) {
+    return quizzes[techKey][lvlKey]
+  }
+  return null
+}

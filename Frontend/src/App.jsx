@@ -5,10 +5,7 @@ import Login from './components/Login'
 import Signup from './components/Signup'
 import Quiz from './components/Quizes.jsx'                 // Subject selection page
 import QuizSelection from './components/QuizSelection.jsx'   // Level selection page  
-import HTMLQuiz from './components/subjects/html/HTML.jsx'  // HTML quiz component
-import JavascriptQuiz from './components/subjects/js/Javascript.jsx' // JavaScript quiz component
-import CSSQuiz from './components/subjects/css/ComputerSecuirity.jsx'    // CSS quiz component
-import Python from './components/subjects/python/Python.jsx' // Python quiz component
+import QuizEngine from './components/QuizEngine.jsx' // Central quiz engine component
 import ResultsPage from './components/ResultsPage.jsx'      // Results page component
 function App() {
   return (
@@ -25,15 +22,13 @@ function App() {
         {/* Level selection for each subject */}
         <Route path="/quiz/:subject/selection" element={<QuizSelection />} />
         
-        {/* Individual quiz routes */}
-        <Route path="/quiz/html/:level" element={<HTMLQuiz />} />
-        <Route path="/quiz/css/:level" element={<CSSQuiz />} />
-        <Route path="/quiz/javascript/:level" element={<JavascriptQuiz />} />
+        {/* Individual quiz routes (centralized) */}
+        <Route path="/quiz/:subject/:level" element={<QuizEngine />} />
         
         {/* Fallback route */}
         <Route path="*" element={<div>404 - Page Not Found</div>} />
 
-        <Route path="/quiz/python/:level" element={<Python />} />
+        
       </Routes>
     </Router>
   )

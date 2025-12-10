@@ -1,0 +1,3328 @@
+{
+  "html": {
+    "basic": {
+      "title": "HTML Basic",
+      "technology": "html",
+      "duration": 15,
+      "level": "basic",
+      "totalQuestions": 20,
+      "questions": [
+        {
+          "questionText": "What does HTML stand for?",
+          "options": [
+            { "optionText": "Hyper Text Markup Language", "isCorrect": true },
+            { "optionText": "High Tech Modern Language", "isCorrect": false },
+            {
+              "optionText": "Hyper Transfer Markup Language",
+              "isCorrect": false
+            },
+            { "optionText": "Home Tool Markup Language", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which tag is used to create a hyperlink?",
+          "options": [
+            { "optionText": "<link>", "isCorrect": false },
+            { "optionText": "<a>", "isCorrect": true },
+            { "optionText": "<href>", "isCorrect": false },
+            { "optionText": "<hyper>", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which tag represents a paragraph?",
+          "options": [
+            { "optionText": "<p>", "isCorrect": true },
+            { "optionText": "<para>", "isCorrect": false },
+            { "optionText": "<text>", "isCorrect": false },
+            { "optionText": "<paragraph>", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "What is the correct doctype for HTML5?",
+          "options": [
+            { "optionText": "<!DOCTYPE HTML5>", "isCorrect": false },
+            { "optionText": "<!DOCTYPE html>", "isCorrect": true },
+            { "optionText": "<HTML5>", "isCorrect": false },
+            { "optionText": "<doctype html5>", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which attribute provides alternative text for images?",
+          "options": [
+            { "optionText": "title", "isCorrect": false },
+            { "optionText": "src", "isCorrect": false },
+            { "optionText": "alt", "isCorrect": true },
+            { "optionText": "caption", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which tag inserts a line break?",
+          "options": [
+            { "optionText": "<br>", "isCorrect": true },
+            { "optionText": "<lb>", "isCorrect": false },
+            { "optionText": "<break>", "isCorrect": false },
+            { "optionText": "<newline>", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which element is used for numbered lists?",
+          "options": [
+            { "optionText": "<ul>", "isCorrect": false },
+            { "optionText": "<ol>", "isCorrect": true },
+            { "optionText": "<li>", "isCorrect": false },
+            { "optionText": "<dl>", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which element contains metadata about the document?",
+          "options": [
+            { "optionText": "<meta>", "isCorrect": true },
+            { "optionText": "<header>", "isCorrect": false },
+            { "optionText": "<body>", "isCorrect": false },
+            { "optionText": "<info>", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which tag is used to define a table row?",
+          "options": [
+            { "optionText": "<tr>", "isCorrect": true },
+            { "optionText": "<td>", "isCorrect": false },
+            { "optionText": "<th>", "isCorrect": false },
+            { "optionText": "<row>", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which attribute is used to add inline styles?",
+          "options": [
+            { "optionText": "style", "isCorrect": true },
+            { "optionText": "class", "isCorrect": false },
+            { "optionText": "id", "isCorrect": false },
+            { "optionText": "css", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which element is used for the main heading of a page?",
+          "options": [
+            { "optionText": "<head>", "isCorrect": false },
+            { "optionText": "<title>", "isCorrect": false },
+            { "optionText": "<h1>", "isCorrect": true },
+            { "optionText": "<header>", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which element holds the visible content of the page?",
+          "options": [
+            { "optionText": "<body>", "isCorrect": true },
+            { "optionText": "<head>", "isCorrect": false },
+            { "optionText": "<main>", "isCorrect": false },
+            { "optionText": "<section>", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "How do you write an HTML comment?",
+          "options": [
+            { "optionText": "<!-- comment -->", "isCorrect": true },
+            { "optionText": "// comment", "isCorrect": false },
+            { "optionText": "/* comment */", "isCorrect": false },
+            { "optionText": "<! comment !>", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which tag do you use to include a JavaScript file?",
+          "options": [
+            { "optionText": "<script src='file.js'>", "isCorrect": true },
+            { "optionText": "<js src='file.js'>", "isCorrect": false },
+            { "optionText": "<include src='file.js'>", "isCorrect": false },
+            { "optionText": "<scriptfile src='file.js'>", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which tag is used to include CSS in an HTML document (external file)?",
+          "options": [
+            {
+              "optionText": "<stylesheet href='style.css'>",
+              "isCorrect": false
+            },
+            {
+              "optionText": "<link rel='stylesheet' href='style.css'>",
+              "isCorrect": true
+            },
+            { "optionText": "<style src='style.css'>", "isCorrect": false },
+            { "optionText": "<css href='style.css'>", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which tag groups together form controls with a caption?",
+          "options": [
+            { "optionText": "<fieldset>", "isCorrect": true },
+            { "optionText": "<group>", "isCorrect": false },
+            { "optionText": "<formgroup>", "isCorrect": false },
+            { "optionText": "<controls>", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which attribute sets the URL for an <a> tag?",
+          "options": [
+            { "optionText": "href", "isCorrect": true },
+            { "optionText": "src", "isCorrect": false },
+            { "optionText": "link", "isCorrect": false },
+            { "optionText": "url", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which tag represents a list item?",
+          "options": [
+            { "optionText": "<li>", "isCorrect": true },
+            { "optionText": "<item>", "isCorrect": false },
+            { "optionText": "<list-item>", "isCorrect": false },
+            { "optionText": "<entry>", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which tag is used to display an image?",
+          "options": [
+            { "optionText": "<img>", "isCorrect": true },
+            { "optionText": "<image>", "isCorrect": false },
+            { "optionText": "<picture>", "isCorrect": false },
+            { "optionText": "<photo>", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which attribute is used to give an element a unique identifier?",
+          "options": [
+            { "optionText": "class", "isCorrect": false },
+            { "optionText": "id", "isCorrect": true },
+            { "optionText": "name", "isCorrect": false },
+            { "optionText": "key", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    "intermediate": {
+      "title": "HTML Intermediate",
+      "technology": "html",
+      "duration": 25,
+      "level": "intermediate",
+      "totalQuestions": 40,
+      "questions": [
+        {
+          "questionText": "Which element is used for self-contained composition in a document?",
+          "options": [
+            { "optionText": "<section>", "isCorrect": false },
+            { "optionText": "<article>", "isCorrect": true },
+            { "optionText": "<div>", "isCorrect": false },
+            { "optionText": "<aside>", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which input type shows a date picker in supporting browsers?",
+          "options": [
+            { "optionText": "date", "isCorrect": true },
+            { "optionText": "datetime", "isCorrect": false },
+            { "optionText": "calendar", "isCorrect": false },
+            { "optionText": "time", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which attribute on <a> opens the link in a new tab?",
+          "options": [
+            { "optionText": "target='_blank'", "isCorrect": true },
+            { "optionText": "rel='new'", "isCorrect": false },
+            { "optionText": "href='_blank'", "isCorrect": false },
+            { "optionText": "open='new'", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which element is used to play audio?",
+          "options": [
+            { "optionText": "<sound>", "isCorrect": false },
+            { "optionText": "<audio>", "isCorrect": true },
+            { "optionText": "<mp3>", "isCorrect": false },
+            { "optionText": "<media>", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which tag should contain the page title?",
+          "options": [
+            { "optionText": "<title>", "isCorrect": true },
+            { "optionText": "<h1>", "isCorrect": false },
+            { "optionText": "<header>", "isCorrect": false },
+            { "optionText": "<headtitle>", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "What does the <canvas> element provide?",
+          "options": [
+            { "optionText": "Scalable vector graphics", "isCorrect": false },
+            { "optionText": "Bitmap drawing surface", "isCorrect": true },
+            { "optionText": "Audio support", "isCorrect": false },
+            { "optionText": "Table layout", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which semantic element represents site navigation?",
+          "options": [
+            { "optionText": "<nav>", "isCorrect": true },
+            { "optionText": "<menu>", "isCorrect": false },
+            { "optionText": "<navigation>", "isCorrect": false },
+            { "optionText": "<links>", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which attribute on <form> disables browser validation?",
+          "options": [
+            { "optionText": "novalidate", "isCorrect": true },
+            { "optionText": "no-validate", "isCorrect": false },
+            { "optionText": "validate='false'", "isCorrect": false },
+            { "optionText": "novate", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which tag is used for captioning a table?",
+          "options": [
+            { "optionText": "<caption>", "isCorrect": true },
+            { "optionText": "<legend>", "isCorrect": false },
+            { "optionText": "<title>", "isCorrect": false },
+            { "optionText": "<label>", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which element is used to group form controls with a caption?",
+          "options": [
+            { "optionText": "<fieldset>", "isCorrect": true },
+            { "optionText": "<group>", "isCorrect": false },
+            { "optionText": "<controls>", "isCorrect": false },
+            { "optionText": "<formgroup>", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which attribute provides responsive image candidates on <img>?",
+          "options": [
+            { "optionText": "srcset", "isCorrect": true },
+            { "optionText": "sizes", "isCorrect": false },
+            { "optionText": "src", "isCorrect": false },
+            { "optionText": "picture", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which element allows multiple sources for responsive images?",
+          "options": [
+            { "optionText": "<picture>", "isCorrect": true },
+            { "optionText": "<imgset>", "isCorrect": false },
+            { "optionText": "<sources>", "isCorrect": false },
+            { "optionText": "<figure>", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which attribute indicates an input is required?",
+          "options": [
+            { "optionText": "required", "isCorrect": true },
+            { "optionText": "must", "isCorrect": false },
+            { "optionText": "validate", "isCorrect": false },
+            { "optionText": "needed", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which attribute specifies an input's placeholder text?",
+          "options": [
+            { "optionText": "label", "isCorrect": false },
+            { "optionText": "placeholder", "isCorrect": true },
+            { "optionText": "hint", "isCorrect": false },
+            { "optionText": "prompt", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which attribute specifies the input's allowed file types?",
+          "options": [
+            { "optionText": "accept", "isCorrect": true },
+            { "optionText": "type", "isCorrect": false },
+            { "optionText": "format", "isCorrect": false },
+            { "optionText": "files", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which element provides an embedded inline frame?",
+          "options": [
+            { "optionText": "<embed>", "isCorrect": false },
+            { "optionText": "<iframe>", "isCorrect": true },
+            { "optionText": "<frame>", "isCorrect": false },
+            { "optionText": "<window>", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which attribute on <script> loads a module?",
+          "options": [
+            { "optionText": "type='module'", "isCorrect": true },
+            { "optionText": "module='true'", "isCorrect": false },
+            { "optionText": "defer='module'", "isCorrect": false },
+            { "optionText": "async='module'", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which attribute defers script execution until parsing is done?",
+          "options": [
+            { "optionText": "async", "isCorrect": false },
+            { "optionText": "defer", "isCorrect": true },
+            { "optionText": "later", "isCorrect": false },
+            { "optionText": "delay", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which attribute sets the character encoding for the document?",
+          "options": [
+            { "optionText": "<meta charset='UTF-8'>", "isCorrect": true },
+            { "optionText": "<meta encoding='UTF-8'>", "isCorrect": false },
+            { "optionText": "<charset='UTF-8'>", "isCorrect": false },
+            { "optionText": "<meta type='UTF-8'>", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which attribute on a link can help with SEO and noreferrer/security when opening new tabs?",
+          "options": [
+            { "optionText": "rel='noopener noreferrer'", "isCorrect": true },
+            { "optionText": "rel='nofollow'", "isCorrect": false },
+            { "optionText": "rel='external'", "isCorrect": false },
+            { "optionText": "rel='security'", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which element is used to define a list of navigation links in HTML5?",
+          "options": [
+            { "optionText": "<nav>", "isCorrect": true },
+            { "optionText": "<ul>", "isCorrect": false },
+            { "optionText": "<list>", "isCorrect": false },
+            { "optionText": "<menu>", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which attribute is used to associate a <label> with an input?",
+          "options": [
+            { "optionText": "for", "isCorrect": true },
+            { "optionText": "id", "isCorrect": false },
+            { "optionText": "name", "isCorrect": false },
+            { "optionText": "aria-label", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which global attribute allows storing custom data on an element?",
+          "options": [
+            { "optionText": "data-* attributes", "isCorrect": true },
+            { "optionText": "aria-* attributes", "isCorrect": false },
+            { "optionText": "custom-*", "isCorrect": false },
+            { "optionText": "meta-*", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which element hides content visually but keeps it accessible to screen readers?",
+          "options": [
+            { "optionText": "hidden", "isCorrect": false },
+            { "optionText": "aria-hidden", "isCorrect": false },
+            { "optionText": "visually-hidden/sr-only", "isCorrect": true },
+            { "optionText": "display:none", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which attribute marks boolean attributes in HTML (present means true)?",
+          "options": [
+            { "optionText": "value present", "isCorrect": false },
+            {
+              "optionText": "attribute present without value",
+              "isCorrect": true
+            },
+            { "optionText": "attribute='true'", "isCorrect": false },
+            { "optionText": "bool='yes'", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which element is appropriate for marking up quoted blocks of text?",
+          "options": [
+            { "optionText": "<q>", "isCorrect": false },
+            { "optionText": "<blockquote>", "isCorrect": true },
+            { "optionText": "<quote>", "isCorrect": false },
+            { "optionText": "<cite>", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which element provides a machine-readable citation for a work?",
+          "options": [
+            { "optionText": "<cite>", "isCorrect": true },
+            { "optionText": "<reference>", "isCorrect": false },
+            { "optionText": "<meta name='citation'>", "isCorrect": false },
+            { "optionText": "<cite-ref>", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which attribute on <img> helps with responsive layout by providing image sizes?",
+          "options": [
+            { "optionText": "sizes", "isCorrect": true },
+            { "optionText": "srcset", "isCorrect": false },
+            { "optionText": "resolution", "isCorrect": false },
+            { "optionText": "media", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which element can be used to mark up a caption for a <figure>?",
+          "options": [
+            { "optionText": "<figcaption>", "isCorrect": true },
+            { "optionText": "<caption>", "isCorrect": false },
+            { "optionText": "<label>", "isCorrect": false },
+            { "optionText": "<alt>", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which element is used to declare a client-side template that is not rendered directly?",
+          "options": [
+            { "optionText": "<template>", "isCorrect": true },
+            { "optionText": "<slot>", "isCorrect": false },
+            { "optionText": "<script type='template'>", "isCorrect": false },
+            { "optionText": "<fragment>", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    "advanced": {
+      "title": "HTML Advanced",
+      "technology": "html",
+      "duration": 35,
+      "level": "advanced",
+      "totalQuestions": 60,
+      "questions": [
+        {
+          "questionText": "Which API lets pages store small amounts of key/value data in the browser persistently?",
+          "options": [
+            { "optionText": "SessionStorage", "isCorrect": false },
+            { "optionText": "LocalStorage", "isCorrect": true },
+            { "optionText": "IndexedDB", "isCorrect": false },
+            { "optionText": "Cookies", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which HTML5 API supports drag-and-drop operations?",
+          "options": [
+            { "optionText": "Drag and Drop API", "isCorrect": true },
+            { "optionText": "DnD API", "isCorrect": false },
+            { "optionText": "DragDrop", "isCorrect": false },
+            { "optionText": "All of the above", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which element supports srcset for responsive images?",
+          "options": [
+            { "optionText": "<img>", "isCorrect": false },
+            { "optionText": "<picture>", "isCorrect": false },
+            { "optionText": "<figure>", "isCorrect": false },
+            { "optionText": "Both <img> and <picture>", "isCorrect": true }
+          ]
+        },
+        {
+          "questionText": "Which attribute on <link> is used to apply stylesheets conditionally by media?",
+          "options": [
+            { "optionText": "media", "isCorrect": true },
+            { "optionText": "conditional", "isCorrect": false },
+            { "optionText": "type", "isCorrect": false },
+            { "optionText": "rel", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which interface provides programmatic control of audio/video elements?",
+          "options": [
+            { "optionText": "MediaController", "isCorrect": false },
+            { "optionText": "HTMLMediaElement", "isCorrect": true },
+            { "optionText": "MediaStream", "isCorrect": false },
+            { "optionText": "AudioAPI", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which element provides accessible labeling via the 'for' attribute?",
+          "options": [
+            { "optionText": "<label>", "isCorrect": true },
+            { "optionText": "<legend>", "isCorrect": false },
+            { "optionText": "<caption>", "isCorrect": false },
+            { "optionText": "<title>", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which legacy feature supported offline web apps but is deprecated in favor of Service Workers?",
+          "options": [
+            { "optionText": "AppCache", "isCorrect": true },
+            { "optionText": "Service Workers", "isCorrect": false },
+            { "optionText": "WebSQL", "isCorrect": false },
+            { "optionText": "IndexedDB", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which API provides geolocation information to web pages?",
+          "options": [
+            { "optionText": "Navigator.location", "isCorrect": false },
+            { "optionText": "Navigator.geolocation", "isCorrect": true },
+            { "optionText": "GeoAPI", "isCorrect": false },
+            { "optionText": "LocationService", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which syntax lets you store custom data attributes on elements?",
+          "options": [
+            { "optionText": "data-* attributes", "isCorrect": true },
+            { "optionText": "custom-* attributes", "isCorrect": false },
+            { "optionText": "meta-*", "isCorrect": false },
+            { "optionText": "dataattr-*", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which element is used to measure progress of a task?",
+          "options": [
+            { "optionText": "<meter>", "isCorrect": false },
+            { "optionText": "<progress>", "isCorrect": true },
+            { "optionText": "<bar>", "isCorrect": false },
+            { "optionText": "<status>", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which attribute on <script> helps with subresource integrity checks?",
+          "options": [
+            { "optionText": "integrity", "isCorrect": true },
+            { "optionText": "crossorigin", "isCorrect": false },
+            { "optionText": "sha256", "isCorrect": false },
+            { "optionText": "sri", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which rel value helps browsers establish early connections to origins?",
+          "options": [
+            { "optionText": "preconnect", "isCorrect": true },
+            { "optionText": "dns-prefetch", "isCorrect": false },
+            { "optionText": "prefetch", "isCorrect": false },
+            { "optionText": "prerender", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which link rel helps preload critical resources like fonts or modules?",
+          "options": [
+            { "optionText": "preload", "isCorrect": true },
+            { "optionText": "prefetch", "isCorrect": false },
+            { "optionText": "preconnect", "isCorrect": false },
+            { "optionText": "prerender", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which attribute on <link> or <script> indicates CORS behavior for the resource?",
+          "options": [
+            { "optionText": "crossorigin", "isCorrect": true },
+            { "optionText": "cors", "isCorrect": false },
+            { "optionText": "cross", "isCorrect": false },
+            { "optionText": "mode", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which attribute on <img> supports different image density descriptors in srcset?",
+          "options": [
+            { "optionText": "1x, 2x density descriptors", "isCorrect": true },
+            { "optionText": "sizes", "isCorrect": false },
+            { "optionText": "density", "isCorrect": false },
+            { "optionText": "pixel-ratio", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which element helps implement accessible expandable sections with a summary header?",
+          "options": [
+            { "optionText": "<details> + <summary>", "isCorrect": true },
+            { "optionText": "<expander>", "isCorrect": false },
+            { "optionText": "<accordion>", "isCorrect": false },
+            { "optionText": "<section>", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which attribute can be used to suggest preferred language of content to the user agent?",
+          "options": [
+            { "optionText": "lang", "isCorrect": true },
+            { "optionText": "locale", "isCorrect": false },
+            { "optionText": "xml:lang", "isCorrect": false },
+            { "optionText": "language", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which attribute on media elements allows captions/subtitles to be provided?",
+          "options": [
+            { "optionText": "<track> element", "isCorrect": true },
+            { "optionText": "captions attribute", "isCorrect": false },
+            { "optionText": "subtitles attribute", "isCorrect": false },
+            { "optionText": "timeelement", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which element defines a shadow DOM insertion point for Web Components?",
+          "options": [
+            { "optionText": "<slot>", "isCorrect": true },
+            { "optionText": "<shadow>", "isCorrect": false },
+            { "optionText": "<content>", "isCorrect": false },
+            { "optionText": "<slotpoint>", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which meta tag helps control viewport on mobile devices?",
+          "options": [
+            {
+              "optionText": "<meta name='viewport' content='width=device-width, initial-scale=1'>",
+              "isCorrect": true
+            },
+            { "optionText": "<meta viewport>", "isCorrect": false },
+            { "optionText": "<meta device='mobile'>", "isCorrect": false },
+            { "optionText": "<meta name='mobile'>", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which attribute on <a> mitigates reverse tabnabbing when opening new windows?",
+          "options": [
+            { "optionText": "rel='noopener'", "isCorrect": true },
+            { "optionText": "rel='nofollow'", "isCorrect": false },
+            { "optionText": "target='_blank'", "isCorrect": false },
+            { "optionText": "rel='opener'", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which element allows embedding SVG content inline in HTML?",
+          "options": [
+            { "optionText": "<svg>", "isCorrect": true },
+            { "optionText": "<vector>", "isCorrect": false },
+            { "optionText": "<canvas>", "isCorrect": false },
+            { "optionText": "<image>", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which feature allows authors to hint to the browser to render a page in the background for faster navigation?",
+          "options": [
+            { "optionText": "prerender", "isCorrect": true },
+            { "optionText": "prefetch", "isCorrect": false },
+            { "optionText": "preconnect", "isCorrect": false },
+            { "optionText": "preload", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which attribute on <form> allows specifying a submit target (e.g., iframe)?",
+          "options": [
+            { "optionText": "target", "isCorrect": true },
+            { "optionText": "action", "isCorrect": false },
+            { "optionText": "method", "isCorrect": false },
+            { "optionText": "enctype", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which element and attribute pair provides a semantic citation reference?",
+          "options": [
+            { "optionText": "<cite>", "isCorrect": true },
+            { "optionText": "<cite>", "isCorrect": true },
+            { "optionText": "<ref>", "isCorrect": false },
+            { "optionText": "<meta name='citation'>", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which HTML mechanism helps to lazy-load images in supporting browsers?",
+          "options": [
+            { "optionText": "loading='lazy' on <img>", "isCorrect": true },
+            { "optionText": "defer='lazy' on <img>", "isCorrect": false },
+            { "optionText": "lazyload attribute", "isCorrect": false },
+            { "optionText": "data-lazy", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which attribute on media can require user gesture to play by default (browser policy)?",
+          "options": [
+            { "optionText": "muted", "isCorrect": true },
+            { "optionText": "autoplay", "isCorrect": false },
+            { "optionText": "controls", "isCorrect": false },
+            { "optionText": "playsinline", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which element is used to group a set of <option> elements together?",
+          "options": [
+            { "optionText": "<optgroup>", "isCorrect": true },
+            { "optionText": "<group>", "isCorrect": false },
+            { "optionText": "<options>", "isCorrect": false },
+            { "optionText": "<fieldset>", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which attribute on <input type='number'> sets the smallest valid value?",
+          "options": [
+            { "optionText": "min", "isCorrect": true },
+            { "optionText": "step", "isCorrect": false },
+            { "optionText": "value", "isCorrect": false },
+            { "optionText": "lowest", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which attribute prevents an element from receiving focus?",
+          "options": [
+            { "optionText": "tabindex='-1'", "isCorrect": true },
+            { "optionText": "tabindex='0'", "isCorrect": false },
+            { "optionText": "focusable='false'", "isCorrect": false },
+            { "optionText": "nofocus", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which attribute provides a fallback download filename for <a download>?",
+          "options": [
+            { "optionText": "download='filename'", "isCorrect": true },
+            { "optionText": "filename='name'", "isCorrect": false },
+            { "optionText": "file='name'", "isCorrect": false },
+            { "optionText": "name='file'", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which attribute indicates that a form control is editable by the user?",
+          "options": [
+            { "optionText": "contenteditable='true'", "isCorrect": true },
+            { "optionText": "editable='true'", "isCorrect": false },
+            { "optionText": "usereditable='true'", "isCorrect": false },
+            { "optionText": "allowedit='true'", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which element provides semantic grouping of navigation links for accessibility (ARIA landmarK)?",
+          "options": [
+            { "optionText": "<nav>", "isCorrect": true },
+            { "optionText": "<menu>", "isCorrect": false },
+            { "optionText": "<section>", "isCorrect": false },
+            { "optionText": "<aside>", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which attribute instructs browsers to bypass CORS preflight for fonts/connections? (hint: early connection)",
+          "options": [
+            { "optionText": "crossorigin", "isCorrect": true },
+            { "optionText": "cors", "isCorrect": false },
+            { "optionText": "integrity", "isCorrect": false },
+            { "optionText": "preconnect", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which attribute enables a <form> control to be associated with a form not containing it?",
+          "options": [
+            { "optionText": "form='formId'", "isCorrect": true },
+            { "optionText": "formFor='formId'", "isCorrect": false },
+            { "optionText": "associate='formId'", "isCorrect": false },
+            { "optionText": "belongs='formId'", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which element is used to provide fallback content for older browsers when embedding objects?",
+          "options": [
+            {
+              "optionText": "<object> with fallback content",
+              "isCorrect": true
+            },
+            { "optionText": "<embed> fallback", "isCorrect": false },
+            { "optionText": "<object-fallback>", "isCorrect": false },
+            { "optionText": "<legacy>", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which attribute on <button> sets the type to submit a form by default?",
+          "options": [
+            { "optionText": "type='submit'", "isCorrect": true },
+            { "optionText": "action='submit'", "isCorrect": false },
+            { "optionText": "role='submit'", "isCorrect": false },
+            { "optionText": "method='submit'", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which attribute on <link> tells the browser that the stylesheet should be used for printing only?",
+          "options": [
+            { "optionText": "media='print'", "isCorrect": true },
+            { "optionText": "rel='print'", "isCorrect": false },
+            { "optionText": "type='print'", "isCorrect": false },
+            { "optionText": "print='true'", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which element is best used for marking up the main content of a page for accessibility?",
+          "options": [
+            { "optionText": "<main>", "isCorrect": true },
+            { "optionText": "<content>", "isCorrect": false },
+            { "optionText": "<article>", "isCorrect": false },
+            { "optionText": "<section>", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which element allows authors to include JavaScript templates that are inert until used?",
+          "options": [
+            { "optionText": "<template>", "isCorrect": true },
+            {
+              "optionText": "<script type='text/template'>",
+              "isCorrect": false
+            },
+            { "optionText": "<script type='template'>", "isCorrect": false },
+            { "optionText": "<templateScript>", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which attribute on <audio> or <video> allows showing native controls?",
+          "options": [
+            { "optionText": "controls", "isCorrect": true },
+            { "optionText": "showcontrols", "isCorrect": false },
+            { "optionText": "native", "isCorrect": false },
+            { "optionText": "ui", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which attribute on <img> allows specifying an image placeholder before it loads (native lazy placeholder)?",
+          "options": [
+            { "optionText": "loading='lazy'", "isCorrect": true },
+            { "optionText": "placeholder='blur'", "isCorrect": false },
+            { "optionText": "fetchpriority", "isCorrect": false },
+            { "optionText": "srcplaceholder", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which element is used to declare page headers or footers within an article or section?",
+          "options": [
+            { "optionText": "<header> and <footer>", "isCorrect": true },
+            { "optionText": "<head> and <tail>", "isCorrect": false },
+            { "optionText": "<top> and <bottom>", "isCorrect": false },
+            { "optionText": "<hgroup> and <fgroup>", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which element can be used to mark an aside or tangential content?",
+          "options": [
+            { "optionText": "<aside>", "isCorrect": true },
+            { "optionText": "<side>", "isCorrect": false },
+            { "optionText": "<float>", "isCorrect": false },
+            { "optionText": "<complement>", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which HTML attribute is commonly used to enable inline accessibility labeling for ARIA-hidden elements?",
+          "options": [
+            { "optionText": "aria-label", "isCorrect": true },
+            { "optionText": "title", "isCorrect": false },
+            { "optionText": "alt", "isCorrect": false },
+            { "optionText": "label", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which element is used to create an ordered list where items are automatically generated numbers?",
+          "options": [
+            { "optionText": "<ol>", "isCorrect": true },
+            { "optionText": "<ul>", "isCorrect": false },
+            { "optionText": "<list>", "isCorrect": false },
+            { "optionText": "<ordered>", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which attribute on <script> optionally indicates that the script should be evaluated as a module and can use import/export?",
+          "options": [
+            { "optionText": "type='module'", "isCorrect": true },
+            { "optionText": "module='true'", "isCorrect": false },
+            { "optionText": "scriptmodule='yes'", "isCorrect": false },
+            { "optionText": "esmodule='true'", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which attribute is used in a link tag to hint the browser to dns-prefetch an origin?",
+          "options": [
+            { "optionText": "rel='dns-prefetch'", "isCorrect": true },
+            { "optionText": "rel='preconnect'", "isCorrect": false },
+            { "optionText": "rel='prefetch'", "isCorrect": false },
+            { "optionText": "rel='preload'", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which element is used to define a table header cell?",
+          "options": [
+            { "optionText": "<th>", "isCorrect": true },
+            { "optionText": "<td>", "isCorrect": false },
+            { "optionText": "<thead>", "isCorrect": false },
+            { "optionText": "<header>", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which global attribute allows toggling visibility for printing and screen readers when combined with CSS?",
+          "options": [
+            { "optionText": "hidden", "isCorrect": false },
+            { "optionText": "aria-hidden", "isCorrect": false },
+            { "optionText": "data-hidden", "isCorrect": false },
+            { "optionText": "visually-hidden", "isCorrect": true }
+          ]
+        },
+        {
+          "questionText": "Which attribute on a <link> or <script> instructs browsers to preserve integrity with SRI hashes?",
+          "options": [
+            { "optionText": "integrity", "isCorrect": true },
+            { "optionText": "crossorigin", "isCorrect": false },
+            { "optionText": "referrerpolicy", "isCorrect": false },
+            { "optionText": "nonce", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which attribute can be added to inline event handlers to reduce security risks and enable CSP wise approaches? (recommended: avoid inline handlers)",
+          "options": [
+            {
+              "optionText": "Use addEventListener (no attribute)",
+              "isCorrect": true
+            },
+            { "optionText": "onclick-secure", "isCorrect": false },
+            { "optionText": "data-event", "isCorrect": false },
+            { "optionText": "event-handler", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which element provides keyboard input representation for user actions?",
+          "options": [
+            { "optionText": "<kbd>", "isCorrect": true },
+            { "optionText": "<key>", "isCorrect": false },
+            { "optionText": "<input type='key'>", "isCorrect": false },
+            { "optionText": "<keyboard>", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which element represents output from a calculation or user action?",
+          "options": [
+            { "optionText": "<output>", "isCorrect": true },
+            { "optionText": "<result>", "isCorrect": false },
+            { "optionText": "<calc>", "isCorrect": false },
+            { "optionText": "<value>", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which attribute on <button> or <input> can make a form control disabled and non-interactive?",
+          "options": [
+            { "optionText": "disabled", "isCorrect": true },
+            { "optionText": "readonly", "isCorrect": false },
+            { "optionText": "locked", "isCorrect": false },
+            { "optionText": "inactive", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which attribute helps prevent automatic translation of content by the browser?",
+          "options": [
+            { "optionText": "translate='no'", "isCorrect": true },
+            { "optionText": "notranslate='true'", "isCorrect": false },
+            { "optionText": "translate='false'", "isCorrect": false },
+            { "optionText": "data-translate='no'", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which element is used to show a short label or keyword for a form control (often shown inside)?",
+          "options": [
+            {
+              "optionText": "placeholder (input attribute)",
+              "isCorrect": true
+            },
+            { "optionText": "label element", "isCorrect": false },
+            { "optionText": "hint element", "isCorrect": false },
+            { "optionText": "caption", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which element is intended for marking up keyboard shortcuts and user input (sample output)?",
+          "options": [
+            { "optionText": "<samp>", "isCorrect": true },
+            { "optionText": "<kbd>", "isCorrect": false },
+            { "optionText": "<code>", "isCorrect": false },
+            { "optionText": "<var>", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which link rel value hints the browser to fetch a resource for future navigation?",
+          "options": [
+            { "optionText": "prefetch", "isCorrect": true },
+            { "optionText": "preload", "isCorrect": false },
+            { "optionText": "preconnect", "isCorrect": false },
+            { "optionText": "prerender", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which HTML feature allows you to include microdata vocabularies for semantics (structured data)?",
+          "options": [
+            {
+              "optionText": "Microdata (itemscope/itemprop)",
+              "isCorrect": false
+            },
+            { "optionText": "RDFa", "isCorrect": false },
+            { "optionText": "JSON-LD only", "isCorrect": false },
+            {
+              "optionText": "All of the above (depends on approach)",
+              "isCorrect": true
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "css": {
+    "basic": {
+      "title": "CSS Basic",
+      "technology": "css",
+      "duration": 15,
+      "level": "basic",
+      "totalQuestions": 20,
+      "questions": [
+        {
+          "questionText": "Which property changes text color?",
+          "options": [
+            { "optionText": "font-color", "isCorrect": false },
+            { "optionText": "text-color", "isCorrect": false },
+            { "optionText": "color", "isCorrect": true },
+            { "optionText": "fg-color", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "How do you apply a class selector in CSS?",
+          "options": [
+            { "optionText": ".className", "isCorrect": true },
+            { "optionText": "#className", "isCorrect": false },
+            { "optionText": "className", "isCorrect": false },
+            { "optionText": "*className", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which property sets the background color?",
+          "options": [
+            { "optionText": "bgcolor", "isCorrect": false },
+            { "optionText": "background", "isCorrect": false },
+            { "optionText": "background-color", "isCorrect": true },
+            { "optionText": "color", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which property controls spacing inside an element?",
+          "options": [
+            { "optionText": "margin", "isCorrect": false },
+            { "optionText": "padding", "isCorrect": true },
+            { "optionText": "gap", "isCorrect": false },
+            { "optionText": "spacing", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "How to make text bold using CSS?",
+          "options": [
+            { "optionText": "font-weight: bold;", "isCorrect": true },
+            { "optionText": "text-style: bold;", "isCorrect": false },
+            { "optionText": "font: bold;", "isCorrect": false },
+            { "optionText": "font-style: bold;", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which selector targets an element by id?",
+          "options": [
+            { "optionText": "#id", "isCorrect": true },
+            { "optionText": ".id", "isCorrect": false },
+            { "optionText": "id", "isCorrect": false },
+            { "optionText": "*id", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which property controls the font size?",
+          "options": [
+            { "optionText": "text-size", "isCorrect": false },
+            { "optionText": "font-size", "isCorrect": true },
+            { "optionText": "size", "isCorrect": false },
+            { "optionText": "type-size", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which display value places elements inline?",
+          "options": [
+            { "optionText": "block", "isCorrect": false },
+            { "optionText": "inline", "isCorrect": true },
+            { "optionText": "flex", "isCorrect": false },
+            { "optionText": "grid", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which property controls element visibility but keeps layout?",
+          "options": [
+            { "optionText": "display: none", "isCorrect": false },
+            { "optionText": "visibility: hidden", "isCorrect": true },
+            { "optionText": "opacity: 0", "isCorrect": false },
+            { "optionText": "hidden: true", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "How do you write a comment in CSS?",
+          "options": [
+            { "optionText": "// comment", "isCorrect": false },
+            { "optionText": "/* comment */", "isCorrect": true },
+            { "optionText": "<!-- comment -->", "isCorrect": false },
+            { "optionText": "# comment", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which box-sizing value makes width include padding and border?",
+          "options": [
+            { "optionText": "content-box", "isCorrect": false },
+            { "optionText": "border-box", "isCorrect": true },
+            { "optionText": "padding-box", "isCorrect": false },
+            { "optionText": "box-total", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which property defines the font family?",
+          "options": [
+            { "optionText": "font-family", "isCorrect": true },
+            { "optionText": "font-type", "isCorrect": false },
+            { "optionText": "font", "isCorrect": false },
+            { "optionText": "typeface", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which property aligns inline content horizontally inside an element?",
+          "options": [
+            { "optionText": "vertical-align", "isCorrect": false },
+            { "optionText": "text-align", "isCorrect": true },
+            { "optionText": "align-items", "isCorrect": false },
+            { "optionText": "justify-content", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which property controls the space between lines of text?",
+          "options": [
+            { "optionText": "line-spacing", "isCorrect": false },
+            { "optionText": "leading", "isCorrect": false },
+            { "optionText": "line-height", "isCorrect": true },
+            { "optionText": "text-height", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which property changes the mouse cursor when hovering over an element?",
+          "options": [
+            { "optionText": "pointer", "isCorrect": false },
+            { "optionText": "cursor", "isCorrect": true },
+            { "optionText": "mouse", "isCorrect": false },
+            { "optionText": "hover-cursor", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which unit is absolute and not relative to font-size?",
+          "options": [
+            { "optionText": "em", "isCorrect": false },
+            { "optionText": "rem", "isCorrect": false },
+            { "optionText": "px", "isCorrect": true },
+            { "optionText": "%", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which at-rule is used to define a custom font-face?",
+          "options": [
+            { "optionText": "@font", "isCorrect": false },
+            { "optionText": "@font-face", "isCorrect": true },
+            { "optionText": "@import-font", "isCorrect": false },
+            { "optionText": "@face", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which property is the shorthand for setting all four paddings at once?",
+          "options": [
+            { "optionText": "padding-all", "isCorrect": false },
+            { "optionText": "padding", "isCorrect": true },
+            { "optionText": "paddings", "isCorrect": false },
+            { "optionText": "padding-shorthand", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which property controls an element's transparency?",
+          "options": [
+            { "optionText": "opacity", "isCorrect": true },
+            { "optionText": "transparent", "isCorrect": false },
+            { "optionText": "visibility", "isCorrect": false },
+            { "optionText": "alpha", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    "intermediate": {
+      "title": "CSS Intermediate",
+      "technology": "css",
+      "duration": 25,
+      "level": "intermediate",
+      "totalQuestions": 40,
+      "questions": [
+        {
+          "questionText": "Which property sets the layout to a two-dimensional grid?",
+          "options": [
+            { "optionText": "display: grid", "isCorrect": true },
+            { "optionText": "display: flex", "isCorrect": false },
+            { "optionText": "display: block", "isCorrect": false },
+            { "optionText": "display: table", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which unit is relative to the root font-size?",
+          "options": [
+            { "optionText": "em", "isCorrect": false },
+            { "optionText": "rem", "isCorrect": true },
+            { "optionText": "px", "isCorrect": false },
+            { "optionText": "%", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "How to center a block horizontally with a fixed width?",
+          "options": [
+            { "optionText": "margin: auto;", "isCorrect": true },
+            { "optionText": "text-align: center;", "isCorrect": false },
+            { "optionText": "align: center;", "isCorrect": false },
+            { "optionText": "justify: center;", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which pseudo-class targets links when hovered?",
+          "options": [
+            { "optionText": ":active", "isCorrect": false },
+            { "optionText": ":visited", "isCorrect": false },
+            { "optionText": ":hover", "isCorrect": true },
+            { "optionText": ":focus", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which property creates a flexible box layout?",
+          "options": [
+            { "optionText": "display: flex", "isCorrect": true },
+            { "optionText": "display: block", "isCorrect": false },
+            { "optionText": "display: grid", "isCorrect": false },
+            { "optionText": "display: inline", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which property sets spacing between flex items?",
+          "options": [
+            { "optionText": "gap", "isCorrect": true },
+            { "optionText": "space", "isCorrect": false },
+            { "optionText": "item-gap", "isCorrect": false },
+            { "optionText": "margin", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which property controls order of flex items?",
+          "options": [
+            { "optionText": "z-index", "isCorrect": false },
+            { "optionText": "order", "isCorrect": true },
+            { "optionText": "flex-order", "isCorrect": false },
+            { "optionText": "position", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which at-rule imports fonts or other style sheets?",
+          "options": [
+            { "optionText": "@font-face", "isCorrect": false },
+            { "optionText": "@import", "isCorrect": true },
+            { "optionText": "@media", "isCorrect": false },
+            { "optionText": "@charset", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which property adds rounded corners?",
+          "options": [
+            { "optionText": "border-radius", "isCorrect": true },
+            { "optionText": "corner-radius", "isCorrect": false },
+            { "optionText": "radius", "isCorrect": false },
+            { "optionText": "border-curvature", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which property controls box shadow?",
+          "options": [
+            { "optionText": "box-shadow", "isCorrect": true },
+            { "optionText": "shadow", "isCorrect": false },
+            { "optionText": "text-shadow", "isCorrect": false },
+            { "optionText": "box-glow", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which pseudo-element inserts content before an element?",
+          "options": [
+            { "optionText": ":before", "isCorrect": false },
+            { "optionText": "::before", "isCorrect": true },
+            { "optionText": ":first", "isCorrect": false },
+            { "optionText": "::first", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which function performs calculations in CSS values?",
+          "options": [
+            { "optionText": "calc()", "isCorrect": true },
+            { "optionText": "compute()", "isCorrect": false },
+            { "optionText": "math()", "isCorrect": false },
+            { "optionText": "value()", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which property controls stacking order of positioned elements?",
+          "options": [
+            { "optionText": "z-index", "isCorrect": true },
+            { "optionText": "stack-order", "isCorrect": false },
+            { "optionText": "order", "isCorrect": false },
+            { "optionText": "layer", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which property creates responsive image behavior in layout (object fit)?",
+          "options": [
+            { "optionText": "object-position", "isCorrect": false },
+            { "optionText": "object-fit", "isCorrect": true },
+            { "optionText": "background-size", "isCorrect": false },
+            { "optionText": "contain", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which property sets an element's position relative to normal flow?",
+          "options": [
+            { "optionText": "position", "isCorrect": true },
+            { "optionText": "display", "isCorrect": false },
+            { "optionText": "float", "isCorrect": false },
+            { "optionText": "place", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which position value removes the element from normal flow and positions relative to viewport?",
+          "options": [
+            { "optionText": "relative", "isCorrect": false },
+            { "optionText": "absolute", "isCorrect": false },
+            { "optionText": "fixed", "isCorrect": true },
+            { "optionText": "static", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which property defines how a background image is repeated?",
+          "options": [
+            { "optionText": "background-repeat", "isCorrect": true },
+            { "optionText": "background-tile", "isCorrect": false },
+            { "optionText": "repeat", "isCorrect": false },
+            { "optionText": "bg-repeat", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which property controls element overflow behavior?",
+          "options": [
+            { "optionText": "overflow", "isCorrect": true },
+            { "optionText": "clip", "isCorrect": false },
+            { "optionText": "flow", "isCorrect": false },
+            { "optionText": "hide", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which form of selector targets children only one level deep?",
+          "options": [
+            { "optionText": "> (child selector)", "isCorrect": true },
+            { "optionText": "+ (adjacent)", "isCorrect": false },
+            { "optionText": "~ (sibling)", "isCorrect": false },
+            { "optionText": "space (descendent)", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which combinator selects the next sibling element?",
+          "options": [
+            { "optionText": ">", "isCorrect": false },
+            { "optionText": "+", "isCorrect": true },
+            { "optionText": "~", "isCorrect": false },
+            { "optionText": " ", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which declaration defines multiple background layers?",
+          "options": [
+            {
+              "optionText": "background-image: url(a), url(b);",
+              "isCorrect": true
+            },
+            { "optionText": "background-multi: ...", "isCorrect": false },
+            { "optionText": "background-layers: ...", "isCorrect": false },
+            { "optionText": "background-list: ...", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which property controls text overflow with ellipsis?",
+          "options": [
+            { "optionText": "text-ellipsis", "isCorrect": false },
+            { "optionText": "text-overflow: ellipsis", "isCorrect": true },
+            { "optionText": "overflow-text", "isCorrect": false },
+            { "optionText": "ellipsis", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which at-rule applies styles when a media condition is met (responsive)?",
+          "options": [
+            { "optionText": "@media", "isCorrect": true },
+            { "optionText": "@supports", "isCorrect": false },
+            { "optionText": "@responsive", "isCorrect": false },
+            { "optionText": "@match", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which property allows transitions between property values?",
+          "options": [
+            { "optionText": "transition", "isCorrect": true },
+            { "optionText": "animate", "isCorrect": false },
+            { "optionText": "transform", "isCorrect": false },
+            { "optionText": "motion", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which property defines a transform-origin point?",
+          "options": [
+            { "optionText": "transform-origin", "isCorrect": true },
+            { "optionText": "origin", "isCorrect": false },
+            { "optionText": "pivot", "isCorrect": false },
+            { "optionText": "transform-center", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which value for display creates an inline-level flex container?",
+          "options": [
+            { "optionText": "display: flex", "isCorrect": false },
+            { "optionText": "display: inline-flex", "isCorrect": true },
+            { "optionText": "display: inline-block", "isCorrect": false },
+            { "optionText": "display: grid", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which property sets the minimum width of an element?",
+          "options": [
+            { "optionText": "min-width", "isCorrect": true },
+            { "optionText": "minsize", "isCorrect": false },
+            { "optionText": "width-min", "isCorrect": false },
+            { "optionText": "min-size", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which method creates equal-height columns using grid?",
+          "options": [
+            { "optionText": "grid-auto-rows", "isCorrect": true },
+            { "optionText": "align-items", "isCorrect": false },
+            { "optionText": "grid-template-rows", "isCorrect": false },
+            { "optionText": "row-gap", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which function repeats track definitions in grid layout?",
+          "options": [
+            { "optionText": "repeat()", "isCorrect": true },
+            { "optionText": "loop()", "isCorrect": false },
+            { "optionText": "times()", "isCorrect": false },
+            { "optionText": "repeat-track()", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which property controls placement of a grid item across columns/rows?",
+          "options": [
+            { "optionText": "grid-column / grid-row", "isCorrect": true },
+            { "optionText": "column-start / row-start", "isCorrect": false },
+            { "optionText": "place-grid", "isCorrect": false },
+            { "optionText": "grid-area-only", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    "advanced": {
+      "title": "CSS Advanced",
+      "technology": "css",
+      "duration": 35,
+      "level": "advanced",
+      "totalQuestions": 60,
+      "questions": [
+        {
+          "questionText": "Which at-rule applies styles based on viewport size?",
+          "options": [
+            { "optionText": "@responsive", "isCorrect": false },
+            { "optionText": "@viewport", "isCorrect": false },
+            { "optionText": "@media", "isCorrect": true },
+            { "optionText": "@screen", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which layout method is best for complex 2D designs?",
+          "options": [
+            { "optionText": "flexbox", "isCorrect": false },
+            { "optionText": "grid", "isCorrect": true },
+            { "optionText": "float", "isCorrect": false },
+            { "optionText": "table", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which function creates a linear gradient?",
+          "options": [
+            { "optionText": "gradient()", "isCorrect": false },
+            { "optionText": "linear-gradient()", "isCorrect": true },
+            { "optionText": "linear()", "isCorrect": false },
+            { "optionText": "grad-linear()", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which property allows stacking context control?",
+          "options": [
+            { "optionText": "z-index", "isCorrect": true },
+            { "optionText": "stack", "isCorrect": false },
+            { "optionText": "order", "isCorrect": false },
+            { "optionText": "layer", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which pseudo-element inserts content before an element's content?",
+          "options": [
+            { "optionText": ":before", "isCorrect": false },
+            { "optionText": "::before", "isCorrect": true },
+            { "optionText": ":first", "isCorrect": false },
+            { "optionText": "::first", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which property enables custom properties (CSS variables)?",
+          "options": [
+            { "optionText": "--var: value;", "isCorrect": false },
+            { "optionText": "var(--x)", "isCorrect": false },
+            {
+              "optionText": "Both defining and using require different syntax",
+              "isCorrect": true
+            },
+            {
+              "optionText": "CSS doesn't support variables",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "questionText": "Which function is used to reference a CSS custom property?",
+          "options": [
+            { "optionText": "var(--name)", "isCorrect": true },
+            { "optionText": "get(--name)", "isCorrect": false },
+            { "optionText": "css(--name)", "isCorrect": false },
+            { "optionText": "prop(--name)", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which property transforms an element without affecting flow?",
+          "options": [
+            { "optionText": "transform", "isCorrect": true },
+            { "optionText": "position", "isCorrect": false },
+            { "optionText": "translate", "isCorrect": false },
+            { "optionText": "move", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which property creates a clipping region?",
+          "options": [
+            { "optionText": "clip-path", "isCorrect": true },
+            { "optionText": "mask", "isCorrect": false },
+            { "optionText": "overflow", "isCorrect": false },
+            { "optionText": "clip", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which display value creates a block-level flex container?",
+          "options": [
+            { "optionText": "display: flex", "isCorrect": true },
+            { "optionText": "display: block-flex", "isCorrect": false },
+            { "optionText": "display: inline-flex", "isCorrect": false },
+            { "optionText": "display: grid", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which at-rule helps feature-detect support for a CSS property/value?",
+          "options": [
+            { "optionText": "@supports", "isCorrect": true },
+            { "optionText": "@feature", "isCorrect": false },
+            { "optionText": "@detect", "isCorrect": false },
+            { "optionText": "@if", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which function clamps a value between a range (min/max)?",
+          "options": [
+            { "optionText": "clamp()", "isCorrect": true },
+            { "optionText": "between()", "isCorrect": false },
+            { "optionText": "limit()", "isCorrect": false },
+            { "optionText": "range()", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which property indicates the initial preferred size of a flex item?",
+          "options": [
+            { "optionText": "flex-basis", "isCorrect": true },
+            { "optionText": "flex-grow", "isCorrect": false },
+            { "optionText": "flex-shrink", "isCorrect": false },
+            { "optionText": "flex", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which property helps reduce repaint cost by hinting the browser about likely changes?",
+          "options": [
+            { "optionText": "will-change", "isCorrect": true },
+            { "optionText": "optimize", "isCorrect": false },
+            { "optionText": "performance", "isCorrect": false },
+            { "optionText": "gpu-hint", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which property sets blending mode between element and background?",
+          "options": [
+            { "optionText": "mix-blend-mode", "isCorrect": true },
+            { "optionText": "blend", "isCorrect": false },
+            { "optionText": "background-blend-mode", "isCorrect": false },
+            { "optionText": "blend-mode", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which new unit represents a fragment of the available space in grids?",
+          "options": [
+            { "optionText": "fr", "isCorrect": true },
+            { "optionText": "fx", "isCorrect": false },
+            { "optionText": "portion", "isCorrect": false },
+            { "optionText": "share", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which CSS API allows painting custom images via JavaScript (Houdini)?",
+          "options": [
+            { "optionText": "CSS Paint API", "isCorrect": true },
+            { "optionText": "CSS Houdini Paint", "isCorrect": false },
+            { "optionText": "Canvas API", "isCorrect": false },
+            { "optionText": "CSS Draw API", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which property creates containment for layout, paint, and size to improve performance?",
+          "options": [
+            { "optionText": "contain", "isCorrect": true },
+            { "optionText": "isolation", "isCorrect": false },
+            { "optionText": "clip", "isCorrect": false },
+            { "optionText": "overflow", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which value for grid-template-columns creates equal flexible tracks?",
+          "options": [
+            {
+              "optionText": "repeat(auto-fit, minmax(...))",
+              "isCorrect": true
+            },
+            { "optionText": "1fr 1fr", "isCorrect": false },
+            { "optionText": "auto", "isCorrect": false },
+            { "optionText": "flex", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which property establishes a new formatting context for floats to avoid collapse?",
+          "options": [
+            { "optionText": "clear", "isCorrect": false },
+            { "optionText": "overflow: auto", "isCorrect": true },
+            { "optionText": "contain", "isCorrect": false },
+            { "optionText": "isolate", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which function returns the larger of two values?",
+          "options": [
+            { "optionText": "max()", "isCorrect": true },
+            { "optionText": "min()", "isCorrect": false },
+            { "optionText": "greater()", "isCorrect": false },
+            { "optionText": "larger()", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which pseudo-class matches elements when they are the first child of their parent?",
+          "options": [
+            { "optionText": ":first-child", "isCorrect": true },
+            { "optionText": ":first-of-type", "isCorrect": false },
+            { "optionText": ":nth-child(1)", "isCorrect": false },
+            { "optionText": ":only-child", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which property provides an easy way to set both align-items and justify-content in grid/flex?",
+          "options": [
+            { "optionText": "place-items", "isCorrect": true },
+            { "optionText": "align", "isCorrect": false },
+            { "optionText": "place-content", "isCorrect": false },
+            { "optionText": "grid-center", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which property helps set an intrinsic aspect ratio for an element?",
+          "options": [
+            { "optionText": "aspect-ratio", "isCorrect": true },
+            { "optionText": "ratio", "isCorrect": false },
+            { "optionText": "preserve-aspect", "isCorrect": false },
+            { "optionText": "object-ratio", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which CSS property controls smoothing of fonts and rendering on some platforms?",
+          "options": [
+            {
+              "optionText": "font-smooth / -webkit-font-smoothing",
+              "isCorrect": true
+            },
+            { "optionText": "text-render", "isCorrect": false },
+            { "optionText": "font-render", "isCorrect": false },
+            { "optionText": "font-smoothing", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which selector targets elements based on attributes that begin with a value?",
+          "options": [
+            { "optionText": "[attr^='value']", "isCorrect": true },
+            { "optionText": "[attr*='value']", "isCorrect": false },
+            { "optionText": "[attr$='value']", "isCorrect": false },
+            { "optionText": "[attr|='value']", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which value causes an element to act as a containing block for position: fixed in modern browsers (as of container queries era)?",
+          "options": [
+            { "optionText": "contain-intrinsic-size", "isCorrect": false },
+            { "optionText": "contain: layout", "isCorrect": false },
+            { "optionText": "transform on ancestor", "isCorrect": true },
+            { "optionText": "position: relative", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which property toggles whether an element and its descendants are isolated from blending with elements behind them?",
+          "options": [
+            { "optionText": "isolation", "isCorrect": true },
+            { "optionText": "mix-blend-mode", "isCorrect": false },
+            { "optionText": "z-index", "isCorrect": false },
+            { "optionText": "isolate", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which rule orders cascade layers (new CSS cascade layers)?",
+          "options": [
+            { "optionText": "@layer", "isCorrect": true },
+            { "optionText": "@cascade", "isCorrect": false },
+            { "optionText": "@order", "isCorrect": false },
+            { "optionText": "@layer-order", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which CSS feature enables styling based on the size of an ancestor container rather than the viewport?",
+          "options": [
+            { "optionText": "container queries", "isCorrect": true },
+            { "optionText": "media queries", "isCorrect": false },
+            { "optionText": "element queries", "isCorrect": false },
+            { "optionText": "parent queries", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which function returns the minimum of given values?",
+          "options": [
+            { "optionText": "min()", "isCorrect": true },
+            { "optionText": "max()", "isCorrect": false },
+            { "optionText": "lower()", "isCorrect": false },
+            { "optionText": "smallest()", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which property sets how to size columns when using grid-auto-columns/rows?",
+          "options": [
+            {
+              "optionText": "grid-auto-columns / grid-auto-rows",
+              "isCorrect": true
+            },
+            { "optionText": "auto-columns", "isCorrect": false },
+            { "optionText": "grid-columns-auto", "isCorrect": false },
+            { "optionText": "auto-grid", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which property will establish a new stacking context when set to a value other than 'auto' (example: transform)?",
+          "options": [
+            { "optionText": "transform", "isCorrect": true },
+            { "optionText": "position", "isCorrect": false },
+            { "optionText": "display", "isCorrect": false },
+            { "optionText": "opacity", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which CSS value allows you to create breakpoints based on container width (container queries)?",
+          "options": [
+            { "optionText": "@container", "isCorrect": true },
+            { "optionText": "@media", "isCorrect": false },
+            { "optionText": "@query", "isCorrect": false },
+            { "optionText": "@container-query", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which property is used to control hyphenation of text?",
+          "options": [
+            { "optionText": "hyphens", "isCorrect": true },
+            { "optionText": "text-wrap", "isCorrect": false },
+            { "optionText": "word-break", "isCorrect": false },
+            { "optionText": "wrap", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which CSS function can be used to compute sizes using viewport units and arithmetic?",
+          "options": [
+            { "optionText": "calc()", "isCorrect": true },
+            { "optionText": "compute()", "isCorrect": false },
+            { "optionText": "vcalc()", "isCorrect": false },
+            { "optionText": "math()", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which technique isolates CSS scoping in modern component styles (example: shadow DOM)?",
+          "options": [
+            { "optionText": "shadow DOM", "isCorrect": true },
+            { "optionText": "scoped attribute", "isCorrect": false },
+            { "optionText": "iframe", "isCorrect": false },
+            { "optionText": "CSS modules", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which property allows authors to control the default box alignment for grid items?",
+          "options": [
+            { "optionText": "align-content", "isCorrect": false },
+            { "optionText": "align-items", "isCorrect": true },
+            { "optionText": "justify-items", "isCorrect": false },
+            { "optionText": "place-items", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which unit is relative to the smallest side of the viewport?",
+          "options": [
+            { "optionText": "vmin", "isCorrect": true },
+            { "optionText": "vmax", "isCorrect": false },
+            { "optionText": "vh", "isCorrect": false },
+            { "optionText": "vw", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which at-rule can help with preloading fonts with 'as' and rel='preload' usage?",
+          "options": [
+            { "optionText": "link rel='preload' as='font'", "isCorrect": true },
+            { "optionText": "@preload", "isCorrect": false },
+            { "optionText": "@font-preload", "isCorrect": false },
+            { "optionText": "@load", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which property helps implement fluid typography using viewport units + clamp?",
+          "options": [
+            { "optionText": "font-size: clamp()", "isCorrect": true },
+            { "optionText": "fluid-font", "isCorrect": false },
+            { "optionText": "responsive-font", "isCorrect": false },
+            { "optionText": "font-size: fluid()", "isCorrect": false }
+          ]
+        }
+      ]
+    }
+  },
+  "javascript": {
+    "basic": {
+      "title": "JavaScript Basic",
+      "technology": "javascript",
+      "duration": 15,
+      "level": "basic",
+      "totalQuestions": 20,
+      "questions": [
+        {
+          "questionText": "Which keyword declares a variable with block scope introduced in ES6?",
+          "options": [
+            { "optionText": "var", "isCorrect": false },
+            { "optionText": "let", "isCorrect": true },
+            { "optionText": "const", "isCorrect": false },
+            { "optionText": "both let and const", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "How do you write a single-line comment in JS?",
+          "options": [
+            { "optionText": "// comment", "isCorrect": true },
+            { "optionText": "/* comment */", "isCorrect": false },
+            { "optionText": "<!-- comment -->", "isCorrect": false },
+            { "optionText": "# comment", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which function converts a JSON string to an object?",
+          "options": [
+            { "optionText": "JSON.parse()", "isCorrect": true },
+            { "optionText": "JSON.stringify()", "isCorrect": false },
+            { "optionText": "JSON.toObject()", "isCorrect": false },
+            { "optionText": "parseJSON()", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which operator is used for strict equality (no type coercion)?",
+          "options": [
+            { "optionText": "==", "isCorrect": false },
+            { "optionText": "=", "isCorrect": false },
+            { "optionText": "===", "isCorrect": true },
+            { "optionText": "!==", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "How do you add an element to the end of an array?",
+          "options": [
+            { "optionText": "push()", "isCorrect": true },
+            { "optionText": "pop()", "isCorrect": false },
+            { "optionText": "shift()", "isCorrect": false },
+            { "optionText": "unshift()", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which global object contains timing functions like setTimeout in browsers?",
+          "options": [
+            { "optionText": "Window", "isCorrect": true },
+            { "optionText": "Timer", "isCorrect": false },
+            { "optionText": "Global", "isCorrect": false },
+            { "optionText": "Navigator", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "How to create a function expression?",
+          "options": [
+            { "optionText": "function name() {}", "isCorrect": false },
+            { "optionText": "const fn = function() {}", "isCorrect": true },
+            { "optionText": "fn := function() {}", "isCorrect": false },
+            { "optionText": "def fn() {}", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which method joins array elements into a string?",
+          "options": [
+            { "optionText": "join()", "isCorrect": true },
+            { "optionText": "concat()", "isCorrect": false },
+            { "optionText": "toString()", "isCorrect": false },
+            { "optionText": "merge()", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which keyword throws an error manually?",
+          "options": [
+            { "optionText": "raise", "isCorrect": false },
+            { "optionText": "throw", "isCorrect": true },
+            { "optionText": "error", "isCorrect": false },
+            { "optionText": "fail", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "How to check the type of a variable?",
+          "options": [
+            { "optionText": "typeof x", "isCorrect": true },
+            { "optionText": "type(x)", "isCorrect": false },
+            { "optionText": "getType(x)", "isCorrect": false },
+            { "optionText": "typeof(x)", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which syntax declares a constant reference in JS?",
+          "options": [
+            { "optionText": "constant foo = 1", "isCorrect": false },
+            { "optionText": "const foo = 1", "isCorrect": true },
+            { "optionText": "let const foo = 1", "isCorrect": false },
+            { "optionText": "var const foo = 1", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which method removes the last element from an array and returns it?",
+          "options": [
+            { "optionText": "push()", "isCorrect": false },
+            { "optionText": "pop()", "isCorrect": true },
+            { "optionText": "shift()", "isCorrect": false },
+            { "optionText": "unshift()", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which loop repeatedly executes while condition is true (test before body)?",
+          "options": [
+            { "optionText": "do...while", "isCorrect": false },
+            { "optionText": "while", "isCorrect": true },
+            { "optionText": "forEach", "isCorrect": false },
+            { "optionText": "for...in", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which operator is used to concatenate strings?",
+          "options": [
+            { "optionText": "+", "isCorrect": true },
+            { "optionText": "&", "isCorrect": false },
+            { "optionText": ".", "isCorrect": false },
+            { "optionText": "concat() only", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which built-in method converts an object to a JSON string?",
+          "options": [
+            { "optionText": "JSON.stringify()", "isCorrect": true },
+            { "optionText": "JSON.parse()", "isCorrect": false },
+            { "optionText": "toJSON()", "isCorrect": false },
+            { "optionText": "Object.toString()", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which statement creates a new array with values that pass a test?",
+          "options": [
+            { "optionText": "map()", "isCorrect": false },
+            { "optionText": "filter()", "isCorrect": true },
+            { "optionText": "reduce()", "isCorrect": false },
+            { "optionText": "find()", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which value is returned when a function has no return statement?",
+          "options": [
+            { "optionText": "undefined", "isCorrect": true },
+            { "optionText": "null", "isCorrect": false },
+            { "optionText": "0", "isCorrect": false },
+            { "optionText": "'' (empty string)", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which keyword makes a function an async function?",
+          "options": [
+            { "optionText": "async", "isCorrect": true },
+            { "optionText": "await", "isCorrect": false },
+            { "optionText": "defer", "isCorrect": false },
+            { "optionText": "asyncify", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which method adds elements to the start of an array?",
+          "options": [
+            { "optionText": "push()", "isCorrect": false },
+            { "optionText": "pop()", "isCorrect": false },
+            { "optionText": "shift()", "isCorrect": false },
+            { "optionText": "unshift()", "isCorrect": true }
+          ]
+        },
+        {
+          "questionText": "Which built-in object provides methods like map, filter and reduce for arrays?",
+          "options": [
+            { "optionText": "Array.prototype", "isCorrect": true },
+            { "optionText": "Object.prototype", "isCorrect": false },
+            { "optionText": "List.prototype", "isCorrect": false },
+            { "optionText": "Collection.prototype", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    "intermediate": {
+      "title": "JavaScript Intermediate",
+      "technology": "javascript",
+      "duration": 25,
+      "level": "intermediate",
+      "totalQuestions": 40,
+      "questions": [
+        {
+          "questionText": "Which method returns a promise resolved after a delay when you wrap setTimeout?",
+          "options": [
+            {
+              "optionText": "setTimeout returns a promise",
+              "isCorrect": false
+            },
+            {
+              "optionText": "You must wrap setTimeout in a Promise",
+              "isCorrect": true
+            },
+            { "optionText": "delay()", "isCorrect": false },
+            { "optionText": "Promise.timeout()", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which array method creates a new array by applying a function to each element?",
+          "options": [
+            { "optionText": "filter()", "isCorrect": false },
+            { "optionText": "map()", "isCorrect": true },
+            { "optionText": "forEach()", "isCorrect": false },
+            { "optionText": "reduce()", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which operator spreads elements of an array?",
+          "options": [
+            { "optionText": "...", "isCorrect": true },
+            { "optionText": "spread()", "isCorrect": false },
+            { "optionText": "@spread", "isCorrect": false },
+            { "optionText": "++", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which symbol defines a template literal?",
+          "options": [
+            { "optionText": "\"", "isCorrect": false },
+            { "optionText": "'", "isCorrect": false },
+            { "optionText": "` (backtick)", "isCorrect": true },
+            { "optionText": "`` (double backtick)", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which keyword binds 'this' lexically in arrow functions?",
+          "options": [
+            { "optionText": "this", "isCorrect": false },
+            { "optionText": "=>", "isCorrect": true },
+            { "optionText": "lex", "isCorrect": false },
+            { "optionText": "bind", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which method is used to handle promise rejections?",
+          "options": [
+            { "optionText": ".then()", "isCorrect": false },
+            { "optionText": ".catch()", "isCorrect": true },
+            { "optionText": ".finally()", "isCorrect": false },
+            { "optionText": ".resolve()", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which data structure stores unique values?",
+          "options": [
+            { "optionText": "Array", "isCorrect": false },
+            { "optionText": "Set", "isCorrect": true },
+            { "optionText": "Map", "isCorrect": false },
+            { "optionText": "Object", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which method reduces an array to a single value?",
+          "options": [
+            { "optionText": "reduce()", "isCorrect": true },
+            { "optionText": "aggregate()", "isCorrect": false },
+            { "optionText": "fold()", "isCorrect": false },
+            { "optionText": "combine()", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which syntax creates a new object with specified prototype?",
+          "options": [
+            { "optionText": "Object.create(proto)", "isCorrect": true },
+            { "optionText": "{__proto__: proto}", "isCorrect": false },
+            { "optionText": "new Object(proto)", "isCorrect": false },
+            { "optionText": "Object.prototype(proto)", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which statement imports a module default export (ES module)?",
+          "options": [
+            { "optionText": "import * as m from 'x'", "isCorrect": false },
+            { "optionText": "import m from 'x'", "isCorrect": true },
+            { "optionText": "const m = require('x')", "isCorrect": false },
+            { "optionText": "export m from 'x'", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which method serializes an object to JSON string?",
+          "options": [
+            { "optionText": "JSON.toString()", "isCorrect": false },
+            { "optionText": "JSON.stringify()", "isCorrect": true },
+            { "optionText": "Object.stringify()", "isCorrect": false },
+            { "optionText": "toJSON()", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which object method returns an array of a given object's own enumerable property [key, value] pairs?",
+          "options": [
+            { "optionText": "Object.keys()", "isCorrect": false },
+            { "optionText": "Object.values()", "isCorrect": false },
+            { "optionText": "Object.entries()", "isCorrect": true },
+            { "optionText": "Object.getOwnPropertyNames()", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which method creates a shallow-copied array of a portion of an existing array?",
+          "options": [
+            { "optionText": "slice()", "isCorrect": true },
+            { "optionText": "splice()", "isCorrect": false },
+            { "optionText": "copyWithin()", "isCorrect": false },
+            { "optionText": "concat()", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which operator can be used to assign a default value when a variable is nullish (null or undefined)?",
+          "options": [
+            { "optionText": "||", "isCorrect": false },
+            { "optionText": "??", "isCorrect": true },
+            { "optionText": "&&", "isCorrect": false },
+            { "optionText": "?: ", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which built-in object provides key-value pairs but preserves insertion order and allows any value as key?",
+          "options": [
+            { "optionText": "Object", "isCorrect": false },
+            { "optionText": "Map", "isCorrect": true },
+            { "optionText": "Set", "isCorrect": false },
+            { "optionText": "WeakMap", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which function creates a new Promise that resolves when all input promises resolve?",
+          "options": [
+            { "optionText": "Promise.race()", "isCorrect": false },
+            { "optionText": "Promise.all()", "isCorrect": true },
+            { "optionText": "Promise.any()", "isCorrect": false },
+            { "optionText": "Promise.allSettled()", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which method returns the first element that satisfies the provided testing function?",
+          "options": [
+            { "optionText": "filter()", "isCorrect": false },
+            { "optionText": "find()", "isCorrect": true },
+            { "optionText": "findIndex()", "isCorrect": false },
+            { "optionText": "some()", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which operator checks whether a property exists in an object (in operator)?",
+          "options": [
+            { "optionText": "hasOwnProperty", "isCorrect": false },
+            { "optionText": "in", "isCorrect": true },
+            { "optionText": "typeof", "isCorrect": false },
+            { "optionText": "exists", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which loop iterates enumerable properties of an object (keys)?",
+          "options": [
+            { "optionText": "for...of", "isCorrect": false },
+            { "optionText": "for...in", "isCorrect": true },
+            { "optionText": "forEach", "isCorrect": false },
+            { "optionText": "while", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which method converts a NodeList to an Array?",
+          "options": [
+            { "optionText": "Array.from(nodeList)", "isCorrect": true },
+            { "optionText": "[...nodeList]", "isCorrect": true },
+            { "optionText": "Both of the above", "isCorrect": true },
+            { "optionText": "nodeList.toArray()", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which syntax defines a class in ES6?",
+          "options": [
+            { "optionText": "class MyClass { }", "isCorrect": true },
+            { "optionText": "function MyClass() {}", "isCorrect": false },
+            { "optionText": "var MyClass = class {}", "isCorrect": true },
+            { "optionText": "Both 1 and 3", "isCorrect": true }
+          ]
+        },
+        {
+          "questionText": "Which method binds a function's this permanently to a given value?",
+          "options": [
+            { "optionText": "bind()", "isCorrect": true },
+            { "optionText": "call()", "isCorrect": false },
+            { "optionText": "apply()", "isCorrect": false },
+            { "optionText": "setThis()", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which methods call a function immediately with this and arguments specified?",
+          "options": [
+            { "optionText": "call()/apply()", "isCorrect": true },
+            { "optionText": "bind()", "isCorrect": false },
+            { "optionText": "setThis()", "isCorrect": false },
+            { "optionText": "invoke()", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which array method tests whether at least one element passes the test implemented by the provided function?",
+          "options": [
+            { "optionText": "every()", "isCorrect": false },
+            { "optionText": "some()", "isCorrect": true },
+            { "optionText": "filter()", "isCorrect": false },
+            { "optionText": "find()", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which built-in type is used to represent integers larger than Number.MAX_SAFE_INTEGER?",
+          "options": [
+            { "optionText": "BigInt", "isCorrect": true },
+            { "optionText": "Integer", "isCorrect": false },
+            { "optionText": "Long", "isCorrect": false },
+            { "optionText": "BigNumber", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which syntax imports only a named export from a module?",
+          "options": [
+            { "optionText": "import { foo } from 'm';", "isCorrect": true },
+            { "optionText": "import foo from 'm';", "isCorrect": false },
+            {
+              "optionText": "const { foo } = require('m');",
+              "isCorrect": false
+            },
+            { "optionText": "require { foo } from 'm';", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which method returns true if a value is NaN (ES6+)?",
+          "options": [
+            { "optionText": "isNaN()", "isCorrect": false },
+            { "optionText": "Number.isNaN()", "isCorrect": true },
+            { "optionText": "NaN.is()", "isCorrect": false },
+            { "optionText": "Number.isNaNOnly()", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which array method modifies the array by removing or replacing existing elements and/or adding new ones?",
+          "options": [
+            { "optionText": "slice()", "isCorrect": false },
+            { "optionText": "splice()", "isCorrect": true },
+            { "optionText": "concat()", "isCorrect": false },
+            { "optionText": "map()", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which method returns a shallow copy of an array?",
+          "options": [
+            { "optionText": "slice()", "isCorrect": true },
+            { "optionText": "splice()", "isCorrect": false },
+            { "optionText": "copy()", "isCorrect": false },
+            { "optionText": "clone()", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which object prototype method checks if a property exists directly on an object (not its prototype)?",
+          "options": [
+            { "optionText": "obj.hasOwnProperty(prop)", "isCorrect": true },
+            { "optionText": "prop in obj", "isCorrect": false },
+            { "optionText": "Object.has(obj, prop)", "isCorrect": false },
+            { "optionText": "Object.exists(obj, prop)", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which built-in can be used to schedule repeated execution at intervals?",
+          "options": [
+            { "optionText": "setTimeout", "isCorrect": false },
+            { "optionText": "setInterval", "isCorrect": true },
+            { "optionText": "requestAnimationFrame", "isCorrect": false },
+            { "optionText": "queueMicrotask", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    "advanced": {
+      "title": "JavaScript Advanced",
+      "technology": "javascript",
+      "duration": 35,
+      "level": "advanced",
+      "totalQuestions": 60,
+      "questions": [
+        {
+          "questionText": "Which API provides a way to run background tasks in a browser thread?",
+          "options": [
+            { "optionText": "Worker API", "isCorrect": true },
+            { "optionText": "Service Worker", "isCorrect": false },
+            { "optionText": "BackgroundWorker", "isCorrect": false },
+            { "optionText": "Thread API", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which feature allows destructuring arrays into variables?",
+          "options": [
+            { "optionText": "let [a,b] = arr", "isCorrect": true },
+            { "optionText": "let (a,b) = arr", "isCorrect": false },
+            { "optionText": "let {a,b} = arr", "isCorrect": false },
+            { "optionText": "let a,b = arr", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which operator coalesces nullish values (null or undefined)?",
+          "options": [
+            { "optionText": "||", "isCorrect": false },
+            { "optionText": "??", "isCorrect": true },
+            { "optionText": "&&", "isCorrect": false },
+            { "optionText": "?: ", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which method schedules microtasks to run after current script?",
+          "options": [
+            { "optionText": "setTimeout", "isCorrect": false },
+            { "optionText": "setImmediate", "isCorrect": false },
+            { "optionText": "queueMicrotask", "isCorrect": true },
+            { "optionText": "requestAnimationFrame", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which object holds key-value pairs and preserves insertion order?",
+          "options": [
+            { "optionText": "Object", "isCorrect": false },
+            { "optionText": "Map", "isCorrect": true },
+            { "optionText": "Set", "isCorrect": false },
+            { "optionText": "Array", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which concept avoids blocking UI by yielding control back to the event loop?",
+          "options": [
+            { "optionText": "Promises", "isCorrect": false },
+            { "optionText": "Async/Await", "isCorrect": false },
+            { "optionText": "Callbacks", "isCorrect": false },
+            { "optionText": "All of these", "isCorrect": true }
+          ]
+        },
+        {
+          "questionText": "Which method creates a shallow copy of an object?",
+          "options": [
+            { "optionText": "Object.assign({}, obj)", "isCorrect": false },
+            { "optionText": "{...obj}", "isCorrect": true },
+            { "optionText": "Both of these", "isCorrect": false },
+            { "optionText": "clone(obj)", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which feature allows private fields in classes?",
+          "options": [
+            { "optionText": "#privateField", "isCorrect": true },
+            { "optionText": "_private", "isCorrect": false },
+            { "optionText": "private:", "isCorrect": false },
+            { "optionText": "privateField()", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which API streams binary data in chunks (browser Fetch)?",
+          "options": [
+            { "optionText": "Blob API", "isCorrect": false },
+            {
+              "optionText": "Fetch Streams (ReadableStream)",
+              "isCorrect": true
+            },
+            { "optionText": "FileReader", "isCorrect": false },
+            { "optionText": "XHR", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which statement rejects a promise with a reason?",
+          "options": [
+            { "optionText": "Promise.reject(reason)", "isCorrect": true },
+            { "optionText": "throw reason", "isCorrect": false },
+            { "optionText": "reject(reason)", "isCorrect": false },
+            { "optionText": "Promise.error(reason)", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which construct creates a generator function?",
+          "options": [
+            { "optionText": "function* gen(){ }", "isCorrect": true },
+            { "optionText": "async function gen(){ }", "isCorrect": false },
+            { "optionText": "generator function gen(){ }", "isCorrect": false },
+            { "optionText": "function gen*(){}", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which syntax allows iterating over async iterables?",
+          "options": [
+            { "optionText": "for...of", "isCorrect": false },
+            { "optionText": "for await...of", "isCorrect": true },
+            { "optionText": "forEach", "isCorrect": false },
+            { "optionText": "for await in", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which object type stores weakly held keys that don't prevent GC of key objects?",
+          "options": [
+            { "optionText": "Map", "isCorrect": false },
+            { "optionText": "WeakMap", "isCorrect": true },
+            { "optionText": "WeakSet", "isCorrect": false },
+            { "optionText": "Set", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which method returns a Promise that fulfills as soon as any input promise fulfills?",
+          "options": [
+            { "optionText": "Promise.race()", "isCorrect": false },
+            { "optionText": "Promise.any()", "isCorrect": true },
+            { "optionText": "Promise.all()", "isCorrect": false },
+            { "optionText": "Promise.allSettled()", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which API enables reactive streams via nodes (ReadableStream, WritableStream)?",
+          "options": [
+            { "optionText": "Streams API", "isCorrect": true },
+            { "optionText": "XHR API", "isCorrect": false },
+            { "optionText": "Fetch API", "isCorrect": false },
+            { "optionText": "Socket API", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which feature provides symbol primitive values for unique property keys?",
+          "options": [
+            { "optionText": "Symbol()", "isCorrect": true },
+            { "optionText": "Unique()", "isCorrect": false },
+            { "optionText": "NewKey()", "isCorrect": false },
+            { "optionText": "ID()", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which built-in API can be used to observe changes to an object’s properties?",
+          "options": [
+            { "optionText": "Proxy", "isCorrect": true },
+            { "optionText": "Object.observe (deprecated)", "isCorrect": false },
+            { "optionText": "Reflect.observe", "isCorrect": false },
+            { "optionText": "MutationObserver", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which method of Proxy handler intercepts property access?",
+          "options": [
+            { "optionText": "get", "isCorrect": true },
+            { "optionText": "set", "isCorrect": false },
+            { "optionText": "apply", "isCorrect": false },
+            { "optionText": "construct", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which global lets you fetch resources over the network and returns a Promise?",
+          "options": [
+            { "optionText": "XMLHttpRequest", "isCorrect": false },
+            { "optionText": "fetch()", "isCorrect": true },
+            { "optionText": "axios", "isCorrect": false },
+            { "optionText": "net.fetch()", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which Web API allows bi-directional communication between client and server over a persistent connection?",
+          "options": [
+            { "optionText": "HTTP polling", "isCorrect": false },
+            { "optionText": "WebSocket", "isCorrect": true },
+            { "optionText": "Server-Sent Events", "isCorrect": false },
+            { "optionText": "Long polling", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which method schedules a task to run on the next repaint?",
+          "options": [
+            { "optionText": "setTimeout(fn, 0)", "isCorrect": false },
+            { "optionText": "requestAnimationFrame(fn)", "isCorrect": true },
+            { "optionText": "queueMicrotask(fn)", "isCorrect": false },
+            { "optionText": "setImmediate(fn)", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which value is used to create a BigInt literal?",
+          "options": [
+            { "optionText": "9007199254740991n", "isCorrect": true },
+            { "optionText": "BigInt(9007199254740991)", "isCorrect": true },
+            { "optionText": "9007199254740991B", "isCorrect": false },
+            { "optionText": "Both 1 and 2", "isCorrect": true }
+          ]
+        },
+        {
+          "questionText": "Which mechanism ensures safe insertion of user data into HTML to avoid XSS when using DOM APIs?",
+          "options": [
+            { "optionText": "innerHTML with user data", "isCorrect": false },
+            {
+              "optionText": "textContent / setAttribute properly escaped",
+              "isCorrect": true
+            },
+            { "optionText": "eval()", "isCorrect": false },
+            { "optionText": "document.write()", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which event is fired when the DOM is fully parsed but before resources like images finish loading?",
+          "options": [
+            { "optionText": "load", "isCorrect": false },
+            { "optionText": "DOMContentLoaded", "isCorrect": true },
+            { "optionText": "readystatechange", "isCorrect": false },
+            { "optionText": "beforeunload", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which global API provides a high-resolution time stamp for performance measurements?",
+          "options": [
+            { "optionText": "Date.now()", "isCorrect": false },
+            { "optionText": "performance.now()", "isCorrect": true },
+            { "optionText": "console.time()", "isCorrect": false },
+            { "optionText": "new Date()", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which method returns a shallow copy of an object including symbols (ES2017+)?",
+          "options": [
+            { "optionText": "Object.assign()", "isCorrect": false },
+            {
+              "optionText": "Object.getOwnPropertyDescriptors()",
+              "isCorrect": true
+            },
+            { "optionText": "Object.fromEntries()", "isCorrect": false },
+            { "optionText": "Object.entries()", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which operator checks for property existence in prototype chain?",
+          "options": [
+            { "optionText": "hasOwnProperty", "isCorrect": false },
+            { "optionText": "in", "isCorrect": true },
+            { "optionText": "Object.hasOwn()", "isCorrect": false },
+            { "optionText": "exists", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which function allows dynamic importing of modules?",
+          "options": [
+            { "optionText": "import('module')", "isCorrect": true },
+            { "optionText": "require('module')", "isCorrect": false },
+            { "optionText": "System.import('module')", "isCorrect": false },
+            { "optionText": "load('module')", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which pattern avoids callback hell by chaining asynchronous operations with promises?",
+          "options": [
+            { "optionText": "callbacks", "isCorrect": false },
+            { "optionText": "promise chaining", "isCorrect": true },
+            { "optionText": "nested ifs", "isCorrect": false },
+            { "optionText": "synchronous loops", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which error type should be thrown for programmatic API misuse rather than runtime errors?",
+          "options": [
+            { "optionText": "TypeError", "isCorrect": true },
+            { "optionText": "SyntaxError", "isCorrect": false },
+            { "optionText": "ReferenceError", "isCorrect": false },
+            { "optionText": "RangeError", "isCorrect": false }
+          ]
+        }
+      ]
+    }
+  },
+  "python": {
+    "basic": {
+      "title": "Python Basic",
+      "technology": "python",
+      "duration": 15,
+      "level": "basic",
+      "totalQuestions": 20,
+      "questions": [
+        {
+          "questionText": "Which keyword defines a function in Python?",
+          "options": [
+            { "optionText": "func", "isCorrect": false },
+            { "optionText": "def", "isCorrect": true },
+            { "optionText": "function", "isCorrect": false },
+            { "optionText": "fn", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which data type holds an ordered, mutable sequence?",
+          "options": [
+            { "optionText": "tuple", "isCorrect": false },
+            { "optionText": "list", "isCorrect": true },
+            { "optionText": "set", "isCorrect": false },
+            { "optionText": "dict", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "How to write single-line comments?",
+          "options": [
+            { "optionText": "// comment", "isCorrect": false },
+            { "optionText": "# comment", "isCorrect": true },
+            { "optionText": "/* comment */", "isCorrect": false },
+            { "optionText": "<!-- -->", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which statement creates a new empty dictionary?",
+          "options": [
+            { "optionText": "[]", "isCorrect": false },
+            { "optionText": "{}", "isCorrect": false },
+            { "optionText": "dict()", "isCorrect": false },
+            { "optionText": "both 2 and 3", "isCorrect": true }
+          ]
+        },
+        {
+          "questionText": "Which function prints to the console?",
+          "options": [
+            { "optionText": "echo()", "isCorrect": false },
+            { "optionText": "console.log()", "isCorrect": false },
+            { "optionText": "print()", "isCorrect": true },
+            { "optionText": "printf()", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which operator calculates exponentiation?",
+          "options": [
+            { "optionText": "^", "isCorrect": false },
+            { "optionText": "**", "isCorrect": true },
+            { "optionText": "pow", "isCorrect": false },
+            { "optionText": "^^", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which keyword terminates a loop immediately?",
+          "options": [
+            { "optionText": "stop", "isCorrect": false },
+            { "optionText": "break", "isCorrect": true },
+            { "optionText": "exit", "isCorrect": false },
+            { "optionText": "return", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which symbol is used for string formatting with f-strings?",
+          "options": [
+            { "optionText": "f\"...\"", "isCorrect": true },
+            { "optionText": "s\"...\"", "isCorrect": false },
+            { "optionText": "fmt\"...\"", "isCorrect": false },
+            { "optionText": "format(...)", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which collection stores unique unordered items?",
+          "options": [
+            { "optionText": "list", "isCorrect": false },
+            { "optionText": "set", "isCorrect": true },
+            { "optionText": "tuple", "isCorrect": false },
+            { "optionText": "dict", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which statement handles exceptions?",
+          "options": [
+            { "optionText": "try/except", "isCorrect": true },
+            { "optionText": "try/catch", "isCorrect": false },
+            { "optionText": "begin/rescue", "isCorrect": false },
+            { "optionText": "catch/handle", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "What is the output of `bool('False')`?",
+          "options": [
+            { "optionText": "True", "isCorrect": true },
+            { "optionText": "False", "isCorrect": false },
+            { "optionText": "Error", "isCorrect": false },
+            { "optionText": "None", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which method adds an element to the end of a list?",
+          "options": [
+            { "optionText": ".append()", "isCorrect": true },
+            { "optionText": ".insert()", "isCorrect": false },
+            { "optionText": ".add()", "isCorrect": false },
+            { "optionText": ".push()", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "What is the result of `'hello'[1:4]`?",
+          "options": [
+            { "optionText": "'ell'", "isCorrect": true },
+            { "optionText": "'hel'", "isCorrect": false },
+            { "optionText": "'ello'", "isCorrect": false },
+            { "optionText": "'el'", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which of these is a valid variable name?",
+          "options": [
+            { "optionText": "2nd_var", "isCorrect": false },
+            { "optionText": "my-var", "isCorrect": false },
+            { "optionText": "_myvar", "isCorrect": true },
+            { "optionText": "global", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "What is the purpose of the `elif` keyword?",
+          "options": [
+            { "optionText": "To define a function", "isCorrect": false },
+            { "optionText": "To handle an exception", "isCorrect": false },
+            {
+              "optionText": "To check another condition if the previous ones were false",
+              "isCorrect": true
+            },
+            { "optionText": "To exit a loop", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "What will `'Hi' * 3` evaluate to?",
+          "options": [
+            { "optionText": "'HiHiHi'", "isCorrect": true },
+            { "optionText": "3", "isCorrect": false },
+            { "optionText": "Error", "isCorrect": false },
+            { "optionText": "'Hi3'", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which function converts a string to an integer?",
+          "options": [
+            { "optionText": "str()", "isCorrect": false },
+            { "optionText": "int()", "isCorrect": true },
+            { "optionText": "float()", "isCorrect": false },
+            { "optionText": "convert()", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "What is the default return value of a function that doesn't have a `return` statement?",
+          "options": [
+            { "optionText": "0", "isCorrect": false },
+            { "optionText": "None", "isCorrect": true },
+            { "optionText": "False", "isCorrect": false },
+            { "optionText": "An error occurs", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "What does the `in` keyword check for in a list?",
+          "options": [
+            { "optionText": "The data type of elements", "isCorrect": false },
+            { "optionText": "If a value is present", "isCorrect": true },
+            { "optionText": "The memory location", "isCorrect": false },
+            { "optionText": "If the list is sorted", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    "intermediate": {
+      "title": "Python Intermediate",
+      "technology": "python",
+      "duration": 25,
+      "level": "intermediate",
+      "totalQuestions": 40,
+      "questions": [
+        {
+          "questionText": "Which comprehension creates a list from an iterable?",
+          "options": [
+            { "optionText": "{x for x in it}", "isCorrect": false },
+            { "optionText": "[x for x in it]", "isCorrect": true },
+            { "optionText": "(x for x in it)", "isCorrect": false },
+            { "optionText": "<x for x in it>", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which module provides JSON parsing and serializing?",
+          "options": [
+            { "optionText": "simplejson", "isCorrect": false },
+            { "optionText": "json", "isCorrect": true },
+            { "optionText": "ujson", "isCorrect": false },
+            { "optionText": "marshal", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which statement opens a file with automatic close?",
+          "options": [
+            { "optionText": "open('f')", "isCorrect": false },
+            { "optionText": "with open('f') as f:", "isCorrect": true },
+            { "optionText": "try: open('f')", "isCorrect": false },
+            { "optionText": "openFile('f')", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which tool creates isolated Python environments?",
+          "options": [
+            { "optionText": "virtualenv / venv", "isCorrect": false },
+            { "optionText": "pipenv", "isCorrect": false },
+            { "optionText": "conda", "isCorrect": false },
+            { "optionText": "Any of these", "isCorrect": true }
+          ]
+        },
+        {
+          "questionText": "Which iterator yields values lazily?",
+          "options": [
+            { "optionText": "list", "isCorrect": false },
+            { "optionText": "generator (yield)", "isCorrect": true },
+            { "optionText": "tuple", "isCorrect": false },
+            { "optionText": "set", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which construct catches multiple exception types?",
+          "options": [
+            {
+              "optionText": "except (TypeError, ValueError):",
+              "isCorrect": true
+            },
+            {
+              "optionText": "catch TypeError, ValueError:",
+              "isCorrect": false
+            },
+            {
+              "optionText": "except TypeError | ValueError:",
+              "isCorrect": false
+            },
+            {
+              "optionText": "except TypeError and ValueError:",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "questionText": "Which function applies a function over an iterable and returns an iterator in Python 3?",
+          "options": [
+            { "optionText": "map()", "isCorrect": true },
+            { "optionText": "imap()", "isCorrect": false },
+            { "optionText": "maplist()", "isCorrect": false },
+            { "optionText": "apply()", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which decorator marks a method as a class-level method?",
+          "options": [
+            { "optionText": "@classmethod", "isCorrect": true },
+            { "optionText": "@staticmethod", "isCorrect": false },
+            { "optionText": "@property", "isCorrect": false },
+            { "optionText": "@instance", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which built-in returns the number of items in an iterable?",
+          "options": [
+            { "optionText": "size()", "isCorrect": false },
+            { "optionText": "len()", "isCorrect": true },
+            { "optionText": "count()", "isCorrect": false },
+            { "optionText": "length()", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which library is commonly used for HTTP requests?",
+          "options": [
+            { "optionText": "requests", "isCorrect": true },
+            { "optionText": "http.client", "isCorrect": false },
+            { "optionText": "urllib", "isCorrect": false },
+            { "optionText": "aiohttp", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "What is the key difference between `deepcopy` and `copy`?",
+          "options": [
+            { "optionText": "deepcopy is faster", "isCorrect": false },
+            {
+              "optionText": "copy creates a new reference, deepcopy creates new objects",
+              "isCorrect": true
+            },
+            {
+              "optionText": "deepcopy only works on lists",
+              "isCorrect": false
+            },
+            { "optionText": "There is no difference", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "What does the `zip()` function do?",
+          "options": [
+            { "optionText": "Compresses files", "isCorrect": false },
+            {
+              "optionText": "Creates a list of tuples from multiple iterables",
+              "isCorrect": true
+            },
+            { "optionText": "Encrypts data", "isCorrect": false },
+            { "optionText": "Sorts a list", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "How can you create an abstract base class?",
+          "options": [
+            {
+              "optionText": "By using the `abstract` keyword",
+              "isCorrect": false
+            },
+            {
+              "optionText": "By inheriting from `ABC` and using `@abstractmethod`",
+              "isCorrect": true
+            },
+            { "optionText": "By naming it AbstractBase", "isCorrect": false },
+            {
+              "optionText": "Python doesn't support abstraction",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "questionText": "What is the purpose of `*args` in a function definition?",
+          "options": [
+            {
+              "optionText": "To accept only keyword arguments",
+              "isCorrect": false
+            },
+            {
+              "optionText": "To accept a variable number of non-keyword arguments",
+              "isCorrect": true
+            },
+            { "optionText": "To unpack a list", "isCorrect": false },
+            { "optionText": "To define a decorator", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "What is the purpose of `**kwargs`?",
+          "options": [
+            {
+              "optionText": "To accept a variable number of keyword arguments",
+              "isCorrect": true
+            },
+            {
+              "optionText": "To accept a variable number of non-keyword arguments",
+              "isCorrect": false
+            },
+            { "optionText": "To define a class", "isCorrect": false },
+            { "optionText": "To handle exceptions", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "What is method resolution order (MRO)?",
+          "options": [
+            {
+              "optionText": "The order in which methods are called",
+              "isCorrect": false
+            },
+            {
+              "optionText": "The order in which Python searches for methods in a class hierarchy",
+              "isCorrect": true
+            },
+            { "optionText": "A sorting algorithm", "isCorrect": false },
+            { "optionText": "A list of built-in methods", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which module would you use for unit testing?",
+          "options": [
+            { "optionText": "unittest", "isCorrect": false },
+            { "optionText": "pytest", "isCorrect": false },
+            { "optionText": "doctest", "isCorrect": false },
+            { "optionText": "Any of these", "isCorrect": true }
+          ]
+        },
+        {
+          "questionText": "What is a metaclass in Python?",
+          "options": [
+            {
+              "optionText": "A class for measuring things",
+              "isCorrect": false
+            },
+            { "optionText": "The class of a class", "isCorrect": true },
+            { "optionText": "A deprecated feature", "isCorrect": false },
+            {
+              "optionText": "A class that contains only static methods",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "questionText": "What does the `__init__.py` file signify in a directory?",
+          "options": [
+            {
+              "optionText": "It makes the directory a Python package",
+              "isCorrect": true
+            },
+            {
+              "optionText": "It initializes the Python interpreter",
+              "isCorrect": false
+            },
+            {
+              "optionText": "It contains configuration settings",
+              "isCorrect": false
+            },
+            {
+              "optionText": "It is required for all Python files",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "questionText": "How do you create a virtual environment named 'venv'?",
+          "options": [
+            { "optionText": "python create venv", "isCorrect": false },
+            { "optionText": "virtualenv venv", "isCorrect": false },
+            { "optionText": "pip install venv", "isCorrect": false },
+            { "optionText": "python -m venv venv", "isCorrect": true }
+          ]
+        },
+        {
+          "questionText": "What does `list(map(lambda x: x**2, [1, 2, 3]))` return?",
+          "options": [
+            { "optionText": "[1, 2, 3]", "isCorrect": false },
+            { "optionText": "[1, 4, 9]", "isCorrect": true },
+            { "optionText": "[2, 4, 6]", "isCorrect": false },
+            { "optionText": "Error", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "What is the output of `[x if x % 2 == 0 else 'odd' for x in range(3)]`?",
+          "options": [
+            { "optionText": "[0, 'odd', 2]", "isCorrect": true },
+            { "optionText": "[0, 1, 2]", "isCorrect": false },
+            { "optionText": "['even', 'odd', 'even']", "isCorrect": false },
+            { "optionText": "[0, 'odd']", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "What will `'hello'.upper().lower()` return?",
+          "options": [
+            { "optionText": "'HELLO'", "isCorrect": false },
+            { "optionText": "'hello'", "isCorrect": true },
+            { "optionText": "'Hello'", "isCorrect": false },
+            { "optionText": "Error", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "What is the result of `bool([])`?",
+          "options": [
+            { "optionText": "True", "isCorrect": false },
+            { "optionText": "False", "isCorrect": true },
+            { "optionText": "None", "isCorrect": false },
+            { "optionText": "Error", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "What does `'a' in {'a': 1, 'b': 2}` evaluate to?",
+          "options": [
+            { "optionText": "True", "isCorrect": true },
+            { "optionText": "False", "isCorrect": false },
+            { "optionText": "1", "isCorrect": false },
+            { "optionText": "Error", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "What is the difference between `==` and `is`?",
+          "options": [
+            {
+              "optionText": "`is` compares values, `==` compares identities",
+              "isCorrect": false
+            },
+            {
+              "optionText": "`==` compares values, `is` compares identities",
+              "isCorrect": true
+            },
+            { "optionText": "They are the same", "isCorrect": false },
+            {
+              "optionText": "`is` is used for numbers only",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "questionText": "What is a context manager's primary purpose?",
+          "options": [
+            { "optionText": "To manage class context", "isCorrect": false },
+            {
+              "optionText": "To manage resources (setup/teardown)",
+              "isCorrect": true
+            },
+            { "optionText": "To manage variable scope", "isCorrect": false },
+            { "optionText": "To manage imports", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which method is called when an object is created?",
+          "options": [
+            { "optionText": "__new__", "isCorrect": false },
+            { "optionText": "__init__", "isCorrect": true },
+            { "optionText": "__create__", "isCorrect": false },
+            { "optionText": "__call__", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which method is called to get the string representation of an object for printing?",
+          "options": [
+            { "optionText": "__str__", "isCorrect": true },
+            { "optionText": "__repr__", "isCorrect": false },
+            { "optionText": "__print__", "isCorrect": false },
+            { "optionText": "__string__", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "What is the output of `round(3.5)` and `round(4.5)` in Python?",
+          "options": [
+            { "optionText": "4 and 4", "isCorrect": true },
+            { "optionText": "4 and 5", "isCorrect": false },
+            { "optionText": "3 and 4", "isCorrect": false },
+            { "optionText": "4 and 4", "isCorrect": true }
+          ]
+        }
+      ]
+    },
+    "advanced": {
+      "title": "Python Advanced",
+      "technology": "python",
+      "duration": 35,
+      "level": "advanced",
+      "totalQuestions": 60,
+      "questions": [
+        {
+          "questionText": "Which module supports asynchronous IO in Python?",
+          "options": [
+            { "optionText": "asyncio", "isCorrect": true },
+            { "optionText": "threading", "isCorrect": false },
+            { "optionText": "multiprocessing", "isCorrect": false },
+            { "optionText": "concurrent", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which statement creates generator expressions?",
+          "options": [
+            { "optionText": "(x for x in it)", "isCorrect": true },
+            { "optionText": "[x for x in it]", "isCorrect": false },
+            { "optionText": "{x for x in it}", "isCorrect": false },
+            { "optionText": "<x for x in it>", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which protocol does asyncio event loop implement for concurrency?",
+          "options": [
+            { "optionText": "Threading", "isCorrect": false },
+            { "optionText": "Event loop with coroutines", "isCorrect": true },
+            { "optionText": "Multiprocessing", "isCorrect": false },
+            { "optionText": "Forking", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which package is used for data analysis in Python?",
+          "options": [
+            { "optionText": "numpy / pandas", "isCorrect": true },
+            { "optionText": "requests", "isCorrect": false },
+            { "optionText": "flask", "isCorrect": false },
+            { "optionText": "django", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which method serializes objects for inter-process communication (pickle)?",
+          "options": [
+            { "optionText": "pickle.dumps()", "isCorrect": true },
+            { "optionText": "json.dumps()", "isCorrect": false },
+            { "optionText": "marshal.dump()", "isCorrect": false },
+            { "optionText": "serialize()", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which design pattern provides single instance availability?",
+          "options": [
+            { "optionText": "Factory", "isCorrect": false },
+            { "optionText": "Singleton", "isCorrect": true },
+            { "optionText": "Strategy", "isCorrect": false },
+            { "optionText": "Observer", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which tool measures code coverage in Python tests?",
+          "options": [
+            { "optionText": "pytest", "isCorrect": false },
+            { "optionText": "unittest", "isCorrect": false },
+            { "optionText": "coverage.py", "isCorrect": true },
+            { "optionText": "nose", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which library offers machine learning algorithms (commonly)?",
+          "options": [
+            { "optionText": "scikit-learn", "isCorrect": true },
+            { "optionText": "pandas", "isCorrect": false },
+            { "optionText": "matplotlib", "isCorrect": false },
+            { "optionText": "flask", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which statement safely acquires locks for threads?",
+          "options": [
+            { "optionText": "with lock:", "isCorrect": true },
+            { "optionText": "lock.acquire()", "isCorrect": false },
+            { "optionText": "lock.try()", "isCorrect": false },
+            { "optionText": "lock.get()", "isCorrect": false }
+          ]
+        },
+        {
+          "questionText": "Which feature offers type hints in Python?",
+          "options": [
+            { "optionText": "typing module", "isCorrect": true },
+            { "optionText": "type() builtin", "isCorrect": false },
+            { "optionText": "annotations disabled", "isCorrect": false },
+            { "optionText": "pytypes", "isCorrect": false }
+          ]
+        }
+      ]
+    }
+  }
+}
