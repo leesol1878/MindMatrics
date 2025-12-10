@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import questionsData from '../../../assets/dummydata.js';
+import questionsData from '../../assets/dummydata.js';
 
 function CSSQuiz() {
   const { level } = useParams();
