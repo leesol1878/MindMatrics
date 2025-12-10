@@ -19,7 +19,6 @@ export async function createResults(req, res) {
         const computedwrong = wrongAnswers ;
 
         const playload = {
-            totalQuestions: Number(totalQuestions),
             correct: Number(correctAnswers),
             wrong: computedwrong,
             user: req.user._id,
