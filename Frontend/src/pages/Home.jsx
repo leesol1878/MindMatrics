@@ -14,6 +14,8 @@ const Home = () => {
 
         <Quiz />
 
+        <  candy baby />
+
         {/* <QuizSelection /> */}
 
         {/* < HTML /> */}
