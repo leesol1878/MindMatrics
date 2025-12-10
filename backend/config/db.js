@@ -1,9 +1,18 @@
-import mongoose from 'mongoose';
+import mongoose from "mongoose";
 
 const connectDB = async () => {
-    await mongoose.connect('mongodb+srv://stsionastw_db_user:Mindmatrics123@cluster0.b9pr2ni.mongodb.net/MindMatrics')
-        .then(() => {console.log('DB CONNECTED');})
-}
+  await mongoose
+    .connect(
+      "mongodb+srv://stsionastw_db_user:Mindmatrics123@cluster0.b9pr2ni.mongodb.net/MindMatrics"
+    )
+    .then(() => {
+      console.log("DB CONNECTED");
+    });
+};
+const disconnectDB = async () => {
+  await mongoose.disconnect().then(() => {
+    console.log("DB DISCONNECTED");
+  });
+};
 
-export default  connectDB ;
-
+export { connectDB, disconnectDB };

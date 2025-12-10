@@ -1,37 +1,18 @@
 import mongoose from "mongoose";
-const performanceEnum = ['Excellent', 'Good', 'Average', 'Poor'];
+const performanceEnum = ['Excellent', 'Good', 'Average', 'Poor','Needs Work'];
+import "./quizModel.js";
 
 const resultSchema = new mongoose.Schema({
     user: {
         type: mongoose.Schema.Types.ObjectId,
         ref: 'user',
-        required: false
+        required: true
     },
-    title: {
-        type: String,
-        required: true,
-        trim: true
+    quiz: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'quiz',
+        required: true
     },
-
-        technology: {
-      type: String,
-      required: true,
-      trim: true,
-      enum: [
-        "html",
-        "css",
-        "js",
-        "react",
-        "node",
-        "mongodb",
-        "Java",
-        "Python",
-        "cpp",
-        "bootstrap"
-      ]
-    },
-    level: { type: String, required: true, enum: ["basic", "intermediate", "advanced"] },
-    totalQuestions: { type: Number, required: true, min: 0 },
     correct: { type: Number, required: true, min: 0, default: 0 },
     wrong: { type: Number, required: true, min: 0, default: 0 },
     score: { type: Number, min: 0, max: 100, default: 0 },
@@ -42,7 +23,7 @@ const resultSchema = new mongoose.Schema({
 
 //compute score and performance
 resultSchema.pre('save', function (next){
-    const total = Number(this.totalQuestions) || 0;
+    const total = Number(this.quiz.totalQuestions) || 0;
     const correct = Number(this.correct) || 0;
 
     this.score = total ? Math.round((correct / total) * 100) : 0;

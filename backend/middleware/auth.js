@@ -17,7 +17,7 @@ export default async function authMiddleware(req, res, next) {
 
     // Verify token
     try {
-        const payload = jwt.verify(token, JWT_SECRET); // Fixed typo: playload -> payload
+        const payload = jwt.verify(token, JWT_SECRET); 
         const user = await User.findById(payload.id).select('-password'); // Fixed variable name
         
         if (!user) {
@@ -26,7 +26,7 @@ export default async function authMiddleware(req, res, next) {
                 message: 'Not authorized, User not found' 
             });
         }
-
+        // set claims
         req.user = user;
         next();
     } catch (error) {
